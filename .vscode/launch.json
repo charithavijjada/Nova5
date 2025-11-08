@@ -1,0 +1,25 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch Odoo",
+      "type": "debugpy",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "python": "/Users/charithasreevijjada/.pyenv/versions/odoo_venv311/bin/python",
+      "program": "${workspaceFolder}/odoo/odoo-bin",
+      "args": [
+        "-c", "odoo.conf",
+        "--log-handler", "odoo.addons.base.models.ir_attachment:WARNING",
+        "-d", "testingmylimit5",
+        "-u", "student_management",
+        "--with-demo",
+        "--limit-time-real", "0",
+        "--limit-time-cpu", "0",
+        "--max-cron-threads", "0",
+        "--dev=reload,qweb,xml"
+      ],
+      "console": "integratedTerminal"
+    }
+  ]
+}

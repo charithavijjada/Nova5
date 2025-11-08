@@ -1,0 +1,641 @@
+2025-11-07 20:46:01,214 69748 WARNING ? odoo.tools.config: option addons_path, no such directory '/Users/charithasreevijjada/Desktop/odoo_project/addons', skipped 
+2025-11-07 20:46:01,214 69748 WARNING ? odoo.tools.config: option addons_path, no such directory '/Users/charithasreevijjada/Desktop/odoo_project/custom_addons', skipped 
+2025-11-07 20:46:01,214 69748 WARNING ? odoo.tools.config: missing --http-interface/http_interface, using 0.0.0.0 by default, will change to 127.0.0.1 in 20.0 
+2025-11-07 20:46:01,214 69748 INFO ? odoo: Odoo version 19.0 
+2025-11-07 20:46:01,214 69748 INFO ? odoo: Using configuration file at /Users/charithasreevijjada/Desktop/odoo_project/odoo.conf 
+2025-11-07 20:46:01,214 69748 INFO ? odoo: addons paths: _NamespacePath(['/Users/charithasreevijjada/Desktop/odoo_project/odoo/odoo/addons', '/Users/charithasreevijjada/Library/Application Support/Odoo/addons/19.0', '/Users/charithasreevijjada/Desktop/odoo_project/odoo/addons']) 
+2025-11-07 20:46:01,214 69748 INFO ? odoo: database: odoo@localhost:5432 
+2025-11-07 20:46:09,455 69748 INFO ? odoo.service.server: HTTP service (werkzeug) running on 106.70.168.192.in-addr.arpa:8069 
+2025-11-07 20:54:52,299 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:54:52] "GET / HTTP/1.1" 303 - 1 0.004 0.035
+2025-11-07 20:54:52,313 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:54:52] "GET /odoo HTTP/1.1" 303 - 2 0.004 0.009
+2025-11-07 20:54:52,521 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:54:52] "GET /web/database/selector HTTP/1.1" 200 - 2 0.004 0.202
+2025-11-07 20:54:52,562 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:54:52] "GET /web/static/lib/bootstrap/dist/css/bootstrap.css HTTP/1.1" 200 - 1 0.002 0.021
+2025-11-07 20:54:52,562 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:54:52] "GET /web/static/lib/bootstrap/js/dist/util/index.js HTTP/1.1" 200 - 1 0.002 0.020
+2025-11-07 20:54:52,562 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:54:52] "GET /web/static/src/libs/fontawesome/css/font-awesome.css HTTP/1.1" 200 - 1 0.002 0.023
+2025-11-07 20:54:52,563 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:54:52] "GET /web/static/lib/bootstrap/js/dist/dom/data.js HTTP/1.1" 200 - 1 0.002 0.020
+2025-11-07 20:54:52,563 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:54:52] "GET /web/static/lib/bootstrap/js/dist/dom/event-handler.js HTTP/1.1" 200 - 1 0.002 0.020
+2025-11-07 20:54:52,565 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:54:52] "GET /web/static/lib/bootstrap/js/dist/dom/manipulator.js HTTP/1.1" 200 - 1 0.002 0.021
+2025-11-07 20:54:52,582 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:54:52] "GET /web/static/lib/bootstrap/js/dist/dom/selector-engine.js HTTP/1.1" 200 - 1 0.002 0.016
+2025-11-07 20:54:52,582 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:54:52] "GET /web/static/lib/bootstrap/js/dist/util/config.js HTTP/1.1" 200 - 1 0.001 0.015
+2025-11-07 20:54:52,583 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:54:52] "GET /web/static/lib/bootstrap/js/dist/util/component-functions.js HTTP/1.1" 200 - 1 0.001 0.015
+2025-11-07 20:54:52,585 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:54:52] "GET /web/static/lib/bootstrap/js/dist/util/focustrap.js HTTP/1.1" 200 - 1 0.001 0.016
+2025-11-07 20:54:52,585 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:54:52] "GET /web/static/lib/bootstrap/js/dist/util/backdrop.js HTTP/1.1" 200 - 1 0.001 0.016
+2025-11-07 20:54:52,585 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:54:52] "GET /web/static/lib/bootstrap/js/dist/util/scrollbar.js HTTP/1.1" 200 - 1 0.002 0.015
+2025-11-07 20:54:52,595 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:54:52] "GET /web/static/lib/bootstrap/js/dist/modal.js HTTP/1.1" 200 - 1 0.001 0.009
+2025-11-07 20:54:52,595 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:54:52] "GET /web/static/src/public/database_manager.js HTTP/1.1" 200 - 1 0.001 0.009
+2025-11-07 20:54:52,596 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:54:52] "GET /web/static/lib/bootstrap/js/dist/base-component.js HTTP/1.1" 200 - 1 0.001 0.010
+2025-11-07 20:54:52,597 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:54:52] "GET /web/static/img/logo2.png HTTP/1.1" 200 - 1 0.001 0.009
+2025-11-07 20:54:52,751 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:54:52] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 - 1 0.004 0.006
+2025-11-07 20:54:52,765 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:54:52] "GET /web/static/img/favicon.ico HTTP/1.1" 200 - 1 0.002 0.005
+2025-11-07 20:57:14,073 69748 INFO None odoo.service.db: Create database `Charitha`. 
+2025-11-07 20:57:15,646 69748 INFO None odoo.modules.loading: Initializing database Charitha 
+2025-11-07 20:57:16,965 69748 INFO None odoo.modules.loading: loading 1 modules... 
+2025-11-07 20:57:16,965 69748 INFO None odoo.modules.loading: Loading module base (1/1) 
+2025-11-07 20:57:16,989 69748 INFO None odoo.registry: module base: creating or updating database tables 
+2025-11-07 20:57:17,209 69748 INFO None odoo.models: Prepare computation of ir.module.module.menus_by_module 
+2025-11-07 20:57:17,209 69748 INFO None odoo.models: Prepare computation of ir.module.module.reports_by_module 
+2025-11-07 20:57:17,209 69748 INFO None odoo.models: Prepare computation of ir.module.module.views_by_module 
+2025-11-07 20:57:17,259 69748 INFO None odoo.models: Prepare computation of res.partner.user_id 
+2025-11-07 20:57:17,259 69748 INFO None odoo.models: Prepare computation of res.partner.commercial_partner_id 
+2025-11-07 20:57:17,259 69748 INFO None odoo.models: Prepare computation of res.partner.complete_name 
+2025-11-07 20:57:17,259 69748 INFO None odoo.models: Prepare computation of res.partner.lang 
+2025-11-07 20:57:17,259 69748 INFO None odoo.models: Prepare computation of res.partner.company_registry 
+2025-11-07 20:57:17,259 69748 INFO None odoo.models: Prepare computation of res.partner.commercial_company_name 
+2025-11-07 20:57:17,259 69748 INFO None odoo.models: Prepare computation of res.partner.properties 
+2025-11-07 20:57:17,259 69748 INFO None odoo.models: Prepare computation of res.partner.partner_share 
+2025-11-07 20:57:17,276 69748 INFO None odoo.models: Prepare computation of res.currency.decimal_places 
+2025-11-07 20:57:17,288 69748 INFO None odoo.models: Prepare computation of res.company.uses_default_logo 
+2025-11-07 20:57:17,288 69748 INFO None odoo.models: Prepare computation of res.company.logo_web 
+2025-11-07 20:57:17,289 69748 INFO None odoo.models: Computing parent_path for table res_company... 
+2025-11-07 20:57:17,304 69748 INFO None odoo.models: Prepare computation of res.users.signature 
+2025-11-07 20:57:17,304 69748 INFO None odoo.models: Prepare computation of res.users.share 
+2025-11-07 20:57:18,042 69748 INFO None odoo.modules.loading: loading base/data/res_bank.xml 
+2025-11-07 20:57:18,048 69748 INFO None odoo.modules.loading: loading base/data/res.lang.csv 
+2025-11-07 20:57:18,074 69748 INFO None odoo.modules.loading: loading base/data/res_lang_data.xml 
+2025-11-07 20:57:18,104 69748 INFO None odoo.modules.loading: loading base/data/res_partner_data.xml 
+2025-11-07 20:57:18,131 69748 INFO None odoo.modules.loading: loading base/data/res_currency_data.xml 
+2025-11-07 20:57:18,310 69748 INFO None odoo.modules.loading: loading base/data/res_company_data.xml 
+2025-11-07 20:57:18,314 69748 INFO None odoo.modules.loading: loading base/data/res_users_data.xml 
+2025-11-07 20:57:18,640 69748 INFO None odoo.modules.loading: loading base/data/report_paperformat_data.xml 
+2025-11-07 20:57:18,649 69748 INFO None odoo.modules.loading: loading base/data/res_country_data.xml 
+2025-11-07 20:57:19,668 69748 INFO None odoo.modules.loading: loading base/data/ir_demo_data.xml 
+2025-11-07 20:57:19,697 69748 INFO None odoo.modules.loading: loading base/security/base_groups.xml 
+2025-11-07 20:57:19,962 69748 INFO None odoo.modules.loading: loading base/security/base_security.xml 
+2025-11-07 20:57:20,142 69748 INFO None odoo.modules.loading: loading base/wizard/wizard_ir_model_menu_create_views.xml 
+2025-11-07 20:57:20,156 69748 INFO None odoo.modules.loading: loading base/views/base_menus.xml 
+2025-11-07 20:57:20,243 69748 INFO None odoo.modules.loading: loading base/views/decimal_precision_views.xml 
+2025-11-07 20:57:20,270 69748 INFO None odoo.modules.loading: loading base/views/res_config_views.xml 
+2025-11-07 20:57:20,282 69748 INFO None odoo.modules.loading: loading base/data/res.country.state.csv 
+2025-11-07 20:57:20,637 69748 INFO None odoo.modules.loading: loading base/views/ir_actions_views.xml 
+2025-11-07 20:57:20,758 69748 INFO None odoo.modules.loading: loading base/views/ir_asset_views.xml 
+2025-11-07 20:57:20,774 69748 INFO None odoo.modules.loading: loading base/views/ir_config_parameter_views.xml 
+2025-11-07 20:57:20,792 69748 INFO None odoo.modules.loading: loading base/views/ir_cron_views.xml 
+2025-11-07 20:57:20,826 69748 INFO None odoo.modules.loading: loading base/views/ir_cron_trigger_views.xml 
+2025-11-07 20:57:20,849 69748 INFO None odoo.modules.loading: loading base/views/ir_filters_views.xml 
+2025-11-07 20:57:20,871 69748 ERROR Charitha odoo.sql_db: bad query: b"\n            SELECT latest_version\n            FROM ir_module_module\n             WHERE name='base'\n        "
+ERROR: relation "ir_module_module" does not exist
+LINE 3:             FROM ir_module_module
+                         ^
+ 
+2025-11-07 20:57:20,872 69748 WARNING Charitha odoo.addons.base.models.ir_cron: Tried to poll an undefined table on database Charitha. 
+2025-11-07 20:57:20,881 69748 INFO None odoo.modules.loading: loading base/views/ir_mail_server_views.xml 
+2025-11-07 20:57:20,912 69748 INFO None odoo.modules.loading: loading base/views/ir_model_views.xml 
+2025-11-07 20:57:21,134 69748 INFO None odoo.modules.loading: loading base/views/ir_attachment_views.xml 
+2025-11-07 20:57:21,178 69748 INFO None odoo.modules.loading: loading base/views/ir_rule_views.xml 
+2025-11-07 20:57:21,214 69748 INFO None odoo.modules.loading: loading base/views/ir_sequence_views.xml 
+2025-11-07 20:57:21,256 69748 INFO None odoo.modules.loading: loading base/views/ir_ui_menu_views.xml 
+2025-11-07 20:57:21,293 69748 INFO None odoo.modules.loading: loading base/views/ir_ui_view_views.xml 
+2025-11-07 20:57:21,382 69748 INFO None odoo.modules.loading: loading base/views/ir_default_views.xml 
+2025-11-07 20:57:21,418 69748 INFO None odoo.modules.loading: loading base/data/ir_config_parameter_data.xml 
+2025-11-07 20:57:21,424 69748 INFO None odoo.modules.loading: loading base/data/ir_cron_data.xml 
+2025-11-07 20:57:21,452 69748 INFO None odoo.modules.loading: loading base/report/ir_model_report.xml 
+2025-11-07 20:57:21,461 69748 INFO None odoo.modules.loading: loading base/report/ir_model_templates.xml 
+2025-11-07 20:57:21,475 69748 INFO None odoo.modules.loading: loading base/views/ir_logging_views.xml 
+2025-11-07 20:57:21,509 69748 INFO None odoo.modules.loading: loading base/views/ir_qweb_widget_templates.xml 
+2025-11-07 20:57:21,533 69748 INFO None odoo.modules.loading: loading base/views/ir_module_views.xml 
+2025-11-07 20:57:21,624 69748 INFO None odoo.modules.loading: loading base/data/ir_module_category_data.xml 
+2025-11-07 20:57:21,690 69748 INFO None odoo.modules.loading: loading base/data/ir_module_module.xml 
+2025-11-07 20:57:21,789 69748 INFO None odoo.modules.loading: loading base/report/ir_module_reports.xml 
+2025-11-07 20:57:21,796 69748 INFO None odoo.modules.loading: loading base/report/ir_module_report_templates.xml 
+2025-11-07 20:57:21,807 69748 INFO None odoo.modules.loading: loading base/wizard/base_module_update_views.xml 
+2025-11-07 20:57:21,833 69748 INFO None odoo.modules.loading: loading base/wizard/base_language_install_views.xml 
+2025-11-07 20:57:21,851 69748 INFO None odoo.modules.loading: loading base/wizard/base_import_language_views.xml 
+2025-11-07 20:57:21,868 69748 INFO None odoo.modules.loading: loading base/wizard/base_module_upgrade_views.xml 
+2025-11-07 20:57:21,896 69748 INFO None odoo.modules.loading: loading base/wizard/base_module_uninstall_views.xml 
+2025-11-07 20:57:21,910 69748 INFO None odoo.modules.loading: loading base/wizard/base_export_language_views.xml 
+2025-11-07 20:57:21,931 69748 INFO None odoo.modules.loading: loading base/wizard/base_partner_merge_views.xml 
+2025-11-07 20:57:21,958 69748 INFO None odoo.modules.loading: loading base/data/ir_demo_failure_data.xml 
+2025-11-07 20:57:21,986 69748 INFO None odoo.modules.loading: loading base/views/ir_profile_views.xml 
+2025-11-07 20:57:22,026 69748 INFO None odoo.modules.loading: loading base/views/res_company_views.xml 
+2025-11-07 20:57:22,066 69748 INFO None odoo.modules.loading: loading base/views/res_lang_views.xml 
+2025-11-07 20:57:22,100 69748 INFO None odoo.modules.loading: loading base/views/res_partner_views.xml 
+2025-11-07 20:57:22,246 69748 INFO None odoo.modules.loading: loading base/views/res_bank_views.xml 
+2025-11-07 20:57:22,305 69748 INFO None odoo.modules.loading: loading base/views/res_country_views.xml 
+2025-11-07 20:57:22,382 69748 INFO None odoo.modules.loading: loading base/views/res_currency_views.xml 
+2025-11-07 20:57:22,447 69748 INFO None odoo.modules.loading: loading base/views/res_groups_views.xml 
+2025-11-07 20:57:22,529 69748 INFO None odoo.modules.loading: loading base/views/res_users_views.xml 
+2025-11-07 20:57:22,697 69748 INFO None odoo.modules.loading: loading base/views/res_users_apikeys_views.xml 
+2025-11-07 20:57:22,709 69748 INFO None odoo.modules.loading: loading base/views/res_device_views.xml 
+2025-11-07 20:57:22,745 69748 INFO None odoo.modules.loading: loading base/views/res_users_identitycheck_views.xml 
+2025-11-07 20:57:22,760 69748 INFO None odoo.modules.loading: loading base/views/res_config_settings_views.xml 
+2025-11-07 20:57:22,775 69748 INFO None odoo.modules.loading: loading base/views/report_paperformat_views.xml 
+2025-11-07 20:57:22,818 69748 INFO None odoo.modules.loading: loading base/security/ir.model.access.csv 
+2025-11-07 20:57:22,957 69748 INFO None odoo.modules.loading: Module base: loading demo 
+2025-11-07 20:57:22,957 69748 INFO None odoo.modules.loading: loading base/data/res_users_demo.xml 
+2025-11-07 20:57:23,934 69748 INFO None odoo.modules.loading: loading base/data/res_partner_bank_demo.xml 
+2025-11-07 20:57:23,940 69748 INFO None odoo.modules.loading: loading base/data/res_currency_demo.xml 
+2025-11-07 20:57:23,950 69748 INFO None odoo.modules.loading: loading base/data/res_currency_rate_demo.xml 
+2025-11-07 20:57:24,278 69748 INFO None odoo.modules.loading: loading base/data/res_bank_demo.xml 
+2025-11-07 20:57:24,286 69748 INFO None odoo.modules.loading: loading base/data/res_partner_demo.xml 
+2025-11-07 20:57:24,558 69748 INFO None odoo.modules.loading: loading base/data/res_partner_image_demo.xml 
+2025-11-07 20:57:25,121 69748 INFO None odoo.modules.loading: Module base loaded in 8.16s, 9442 queries (+9443 other) 
+2025-11-07 20:57:25,122 69748 INFO None odoo.modules.loading: 1 modules loaded in 8.16s, 9442 queries (+9443 extra) 
+2025-11-07 20:57:25,139 69748 INFO None odoo.modules.loading: updating modules list 
+2025-11-07 20:57:25,141 69748 INFO None odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2025-11-07 20:57:26,447 69748 INFO None odoo.modules.loading: loading 14 modules... 
+2025-11-07 20:57:26,448 69748 INFO None odoo.modules.loading: Loading module rpc (2/14) 
+2025-11-07 20:57:26,480 69748 INFO None odoo.modules.loading: Module rpc loaded in 0.03s, 9 queries (+9 other) 
+2025-11-07 20:57:26,481 69748 INFO None odoo.modules.loading: Loading module web (3/14) 
+2025-11-07 20:57:26,524 69748 INFO None odoo.registry: module web: creating or updating database tables 
+2025-11-07 20:57:27,148 69748 INFO None odoo.modules.loading: loading web/security/ir.model.access.csv 
+2025-11-07 20:57:27,153 69748 INFO None odoo.modules.loading: loading web/security/web_security.xml 
+2025-11-07 20:57:27,160 69748 INFO None odoo.modules.loading: loading web/views/webclient_templates.xml 
+2025-11-07 20:57:27,188 69748 INFO None odoo.modules.loading: loading web/views/report_templates.xml 
+2025-11-07 20:57:27,240 69748 INFO None odoo.modules.loading: loading web/views/base_document_layout_views.xml 
+2025-11-07 20:57:27,249 69748 INFO None odoo.modules.loading: loading web/views/partner_view.xml 
+2025-11-07 20:57:27,254 69748 INFO None odoo.modules.loading: loading web/views/speedscope_template.xml 
+2025-11-07 20:57:27,257 69748 INFO None odoo.modules.loading: loading web/views/memory_template.xml 
+2025-11-07 20:57:27,261 69748 INFO None odoo.modules.loading: loading web/views/speedscope_config_wizard.xml 
+2025-11-07 20:57:27,265 69748 INFO None odoo.modules.loading: loading web/views/neutralize_views.xml 
+2025-11-07 20:57:27,270 69748 INFO None odoo.modules.loading: loading web/views/ir_ui_view_views.xml 
+2025-11-07 20:57:27,275 69748 INFO None odoo.modules.loading: loading web/data/ir_attachment.xml 
+2025-11-07 20:57:27,278 69748 INFO None odoo.modules.loading: loading web/data/report_layout.xml 
+2025-11-07 20:57:27,301 69748 INFO None odoo.modules.loading: Module web loaded in 0.82s, 1225 queries (+1225 other) 
+2025-11-07 20:57:27,301 69748 INFO None odoo.modules.loading: Loading module api_doc (4/14) 
+2025-11-07 20:57:27,311 69748 INFO None odoo.registry: module api_doc: creating or updating database tables 
+2025-11-07 20:57:27,320 69748 INFO None odoo.modules.loading: loading api_doc/security/res_groups.xml 
+2025-11-07 20:57:27,333 69748 INFO None odoo.modules.loading: loading api_doc/views/docclient.xml 
+2025-11-07 20:57:27,345 69748 INFO None odoo.modules.loading: Module api_doc loaded in 0.04s, 63 queries (+63 other) 
+2025-11-07 20:57:27,345 69748 INFO None odoo.modules.loading: Loading module auth_totp (5/14) 
+2025-11-07 20:57:27,363 69748 INFO None odoo.registry: module auth_totp: creating or updating database tables 
+2025-11-07 20:57:27,416 69748 INFO None odoo.modules.loading: loading auth_totp/security/security.xml 
+2025-11-07 20:57:27,429 69748 INFO None odoo.modules.loading: loading auth_totp/security/ir.model.access.csv 
+2025-11-07 20:57:27,433 69748 INFO None odoo.modules.loading: loading auth_totp/data/ir_action_data.xml 
+2025-11-07 20:57:27,437 69748 INFO None odoo.modules.loading: loading auth_totp/views/res_users_views.xml 
+2025-11-07 20:57:27,452 69748 INFO None odoo.modules.loading: loading auth_totp/views/templates.xml 
+2025-11-07 20:57:27,455 69748 INFO None odoo.modules.loading: loading auth_totp/wizard/auth_totp_wizard_views.xml 
+2025-11-07 20:57:27,473 69748 INFO None odoo.modules.loading: Module auth_totp loaded in 0.13s, 214 queries (+214 other) 
+2025-11-07 20:57:27,473 69748 INFO None odoo.modules.loading: Loading module base_import (6/14) 
+2025-11-07 20:57:27,504 69748 INFO None odoo.registry: module base_import: creating or updating database tables 
+2025-11-07 20:57:27,792 69748 INFO None odoo.modules.loading: loading base_import/security/ir.model.access.csv 
+2025-11-07 20:57:27,799 69748 INFO None odoo.modules.loading: Module base_import loaded in 0.33s, 953 queries (+953 other) 
+2025-11-07 20:57:27,799 69748 INFO None odoo.modules.loading: Loading module base_import_module (7/14) 
+2025-11-07 20:57:27,810 69748 INFO None odoo.registry: module base_import_module: creating or updating database tables 
+2025-11-07 20:57:27,844 69748 INFO None odoo.modules.loading: loading base_import_module/security/ir.model.access.csv 
+2025-11-07 20:57:27,847 69748 INFO None odoo.modules.loading: loading base_import_module/views/base_import_module_view.xml 
+2025-11-07 20:57:27,856 69748 INFO None odoo.modules.loading: loading base_import_module/views/ir_module_views.xml 
+2025-11-07 20:57:27,877 69748 INFO None odoo.modules.loading: Module base_import_module loaded in 0.08s, 172 queries (+172 other) 
+2025-11-07 20:57:27,878 69748 INFO None odoo.modules.loading: Loading module base_setup (8/14) 
+2025-11-07 20:57:27,887 69748 INFO None odoo.registry: module base_setup: creating or updating database tables 
+2025-11-07 20:57:27,913 69748 INFO None odoo.modules.loading: loading base_setup/data/base_setup_data.xml 
+2025-11-07 20:57:27,915 69748 INFO None odoo.modules.loading: loading base_setup/views/res_config_settings_views.xml 
+2025-11-07 20:57:27,933 69748 INFO None odoo.modules.loading: loading base_setup/views/res_partner_views.xml 
+2025-11-07 20:57:27,942 69748 INFO None odoo.modules.loading: Module base_setup loaded in 0.06s, 152 queries (+152 other) 
+2025-11-07 20:57:27,942 69748 INFO None odoo.modules.loading: Loading module bus (9/14) 
+2025-11-07 20:57:27,963 69748 INFO None odoo.registry: module bus: creating or updating database tables 
+2025-11-07 20:57:28,015 69748 INFO None odoo.modules.loading: loading bus/security/ir.model.access.csv 
+2025-11-07 20:57:28,022 69748 INFO None odoo.modules.loading: Module bus loaded in 0.08s, 152 queries (+152 other) 
+2025-11-07 20:57:28,022 69748 INFO None odoo.modules.loading: Loading module web_tour (10/14) 
+2025-11-07 20:57:28,030 69748 INFO None odoo.registry: module web_tour: creating or updating database tables 
+2025-11-07 20:57:28,033 69748 INFO None odoo.models: Prepare computation of res.users.tour_enabled 
+2025-11-07 20:57:28,072 69748 INFO None odoo.modules.loading: loading web_tour/security/ir.model.access.csv 
+2025-11-07 20:57:28,076 69748 INFO None odoo.modules.loading: loading web_tour/views/tour_views.xml 
+2025-11-07 20:57:28,095 69748 INFO None odoo.modules.loading: Module web_tour loaded in 0.07s, 176 queries (+176 other) 
+2025-11-07 20:57:28,095 69748 INFO None odoo.modules.loading: Loading module auth_passkey (11/14) 
+2025-11-07 20:57:28,769 69748 INFO None odoo.registry: module auth_passkey: creating or updating database tables 
+2025-11-07 20:57:28,836 69748 INFO None odoo.modules.loading: loading auth_passkey/views/auth_passkey_key_views.xml 
+2025-11-07 20:57:28,854 69748 INFO None odoo.modules.loading: loading auth_passkey/views/auth_passkey_login_templates.xml 
+2025-11-07 20:57:28,871 69748 INFO None odoo.modules.loading: loading auth_passkey/views/res_users_identitycheck_views.xml 
+2025-11-07 20:57:28,881 69748 INFO None odoo.modules.loading: loading auth_passkey/views/res_users_views.xml 
+2025-11-07 20:57:28,901 69748 INFO None odoo.modules.loading: loading auth_passkey/security/ir.model.access.csv 
+2025-11-07 20:57:28,910 69748 INFO None odoo.modules.loading: loading auth_passkey/security/security.xml 
+2025-11-07 20:57:28,943 69748 INFO None odoo.modules.loading: Module auth_passkey loaded in 0.85s, 218 queries (+218 other) 
+2025-11-07 20:57:28,943 69748 INFO None odoo.modules.loading: Loading module html_editor (12/14) 
+2025-11-07 20:57:32,245 69748 INFO None odoo.registry: module html_editor: creating or updating database tables 
+2025-11-07 20:57:32,883 69748 INFO None odoo.modules.loading: loading html_editor/security/ir.model.access.csv 
+2025-11-07 20:57:32,890 69748 INFO None odoo.modules.loading: Module html_editor loaded in 3.95s, 1031 queries (+1031 other) 
+2025-11-07 20:57:32,890 69748 INFO None odoo.modules.loading: Loading module iap (13/14) 
+2025-11-07 20:57:32,892 69748 INFO None odoo.registry: module iap: creating or updating database tables 
+2025-11-07 20:57:32,928 69748 INFO None odoo.modules.loading: loading iap/data/services.xml 
+2025-11-07 20:57:32,931 69748 INFO None odoo.modules.loading: loading iap/security/ir.model.access.csv 
+2025-11-07 20:57:32,935 69748 INFO None odoo.modules.loading: loading iap/security/ir_rule.xml 
+2025-11-07 20:57:32,939 69748 INFO None odoo.modules.loading: loading iap/views/iap_views.xml 
+2025-11-07 20:57:32,953 69748 INFO None odoo.modules.loading: loading iap/views/res_config_settings.xml 
+2025-11-07 20:57:32,965 69748 INFO None odoo.modules.loading: Module iap loaded in 0.07s, 182 queries (+182 other) 
+2025-11-07 20:57:32,965 69748 INFO None odoo.modules.loading: Loading module web_unsplash (14/14) 
+2025-11-07 20:57:32,975 69748 INFO None odoo.registry: module web_unsplash: creating or updating database tables 
+2025-11-07 20:57:32,998 69748 INFO None odoo.modules.loading: loading web_unsplash/views/res_config_settings_view.xml 
+2025-11-07 20:57:33,013 69748 INFO None odoo.modules.loading: Module web_unsplash loaded in 0.05s, 102 queries (+102 other) 
+2025-11-07 20:57:33,013 69748 INFO None odoo.modules.loading: 14 modules loaded in 6.57s, 4649 queries (+4649 extra) 
+2025-11-07 20:57:33,119 69748 INFO None odoo.modules.loading: Modules loaded. 
+2025-11-07 20:57:33,122 69748 INFO None odoo.registry: Registry changed, signaling through the database 
+2025-11-07 20:57:33,123 69748 INFO None odoo.registry: Registry loaded in 17.528s 
+2025-11-07 20:57:33,474 69748 INFO None odoo.addons.base.models.res_users: Login successful for login:charitha220042@gmail.com from 127.0.0.1 
+2025-11-07 20:57:33,483 69748 INFO None werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:33] "POST /web/database/create HTTP/1.1" 303 - 20388 9.031 11.026
+2025-11-07 20:57:33,490 69748 INFO Charitha odoo.addons.base.models.ir_http: Generating routing map for key None 
+2025-11-07 20:57:33,496 69748 INFO Charitha odoo.addons.base.models.res_device: User 2 inserts device log (bS6zvCXGDCMXtwoY-Pw3N9cgzWxRU3Vc0OsXHByLII) 
+2025-11-07 20:57:33,679 69748 INFO Charitha werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:33] "GET /odoo HTTP/1.1" 200 - 53 0.023 0.170
+2025-11-07 20:57:33,725 69748 INFO Charitha werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:33] "GET /web/webclient/load_menus HTTP/1.1" 200 - 12 0.013 0.012
+2025-11-07 20:57:35,151 69748 INFO Charitha odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/7786e39/web.assets_web.min.css (id:199) 
+2025-11-07 20:57:35,220 69748 INFO Charitha werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:35] "GET /web/assets/7786e39/web.assets_web.min.css HTTP/1.1" 200 - 15 0.074 1.448
+2025-11-07 20:57:36,052 69748 INFO Charitha odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/3c515c1/web.assets_web_print.min.css (id:200) 
+2025-11-07 20:57:36,058 69748 INFO Charitha werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:36] "GET /web/assets/3c515c1/web.assets_web_print.min.css HTTP/1.1" 200 - 8 0.045 0.782
+2025-11-07 20:57:37,064 69748 INFO Charitha odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/af3b4e2/web.assets_web.min.js (id:201) 
+2025-11-07 20:57:37,076 69748 INFO Charitha werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "GET /web/assets/af3b4e2/web.assets_web.min.js HTTP/1.1" 200 - 11 0.008 3.369
+2025-11-07 20:57:37,264 69748 INFO Charitha werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "GET /web/webclient/translations?hash=&lang=en_US HTTP/1.1" 200 - 2 0.003 0.010
+2025-11-07 20:57:37,270 69748 INFO Charitha werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 6 0.011 0.007
+2025-11-07 20:57:37,296 69748 INFO Charitha werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.004
+2025-11-07 20:57:37,319 69748 INFO Charitha odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/854de08/bus.websocket_worker_assets.min.js (id:202) 
+2025-11-07 20:57:37,339 69748 INFO Charitha werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "GET /odoo HTTP/1.1" 200 - 8 0.016 0.020
+2025-11-07 20:57:37,339 69748 INFO Charitha werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "GET /bus/websocket_worker_bundle?v=saas-18.5-1 HTTP/1.1" 200 - 8 0.008 0.041
+2025-11-07 20:57:37,339 69748 INFO Charitha werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "POST /web/action/load HTTP/1.1" 200 - 10 0.018 0.015
+2025-11-07 20:57:37,348 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 200 - 0 0.000 0.006
+2025-11-07 20:57:37,348 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "GET /web/static/img/odoo-icon-192x192.png HTTP/1.1" 200 - 0 0.000 0.005
+2025-11-07 20:57:37,358 69748 INFO Charitha werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 15 0.023 0.022
+2025-11-07 20:57:37,358 69748 INFO Charitha werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "GET /web/image/res.partner/3/avatar_128?unique=1762534653000 HTTP/1.1" 200 - 11 0.020 0.025
+2025-11-07 20:57:37,361 69748 INFO Charitha werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "GET /odoo/offline HTTP/1.1" 200 - 6 0.014 0.033
+2025-11-07 20:57:37,362 69748 INFO Charitha werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "GET /websocket?version=saas-18.5-1 HTTP/1.1" 101 - 1 0.001 0.008
+2025-11-07 20:57:37,682 69748 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2025-11-07 20:57:37,727 69748 INFO Charitha werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "POST /web/dataset/call_kw/ir.module.module/get_views#ir.module.module.get_views HTTP/1.1" 200 - 45 0.036 0.030
+2025-11-07 20:57:37,737 69748 INFO Charitha werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 1 0.001 0.002
+2025-11-07 20:57:37,760 69748 INFO Charitha werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 43 0.014 0.011
+2025-11-07 20:57:37,761 69748 INFO Charitha werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.002 0.002
+2025-11-07 20:57:37,769 69748 INFO Charitha werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 4 0.003 0.028
+2025-11-07 20:57:37,825 69748 INFO Charitha werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.004
+2025-11-07 20:57:37,845 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "GET /sale_management/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2025-11-07 20:57:37,847 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "GET /account/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2025-11-07 20:57:37,847 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "GET /pos_restaurant/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2025-11-07 20:57:37,849 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "GET /crm/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2025-11-07 20:57:37,850 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "GET /base/static/img/icons/mrp_workorder.png HTTP/1.1" 200 - 0 0.000 0.004
+2025-11-07 20:57:37,851 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "GET /stock/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2025-11-07 20:57:37,853 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "GET /base/static/img/icons/account_accountant.png HTTP/1.1" 200 - 0 0.000 0.003
+2025-11-07 20:57:37,853 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "GET /website/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.006
+2025-11-07 20:57:37,854 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "GET /purchase/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2025-11-07 20:57:37,854 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "GET /base/static/img/icons/knowledge.png HTTP/1.1" 200 - 0 0.000 0.003
+2025-11-07 20:57:37,857 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "GET /point_of_sale/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.005
+2025-11-07 20:57:37,857 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "GET /mrp/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2025-11-07 20:57:37,858 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "GET /project/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.005
+2025-11-07 20:57:37,860 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "GET /website_sale/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.005
+2025-11-07 20:57:37,870 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "GET /mass_mailing/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.011
+2025-11-07 20:57:37,878 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "GET /hr_expense/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.011
+2025-11-07 20:57:37,879 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "GET /hr_holidays/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.008
+2025-11-07 20:57:37,880 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "GET /base/static/img/icons/timesheet_grid.png HTTP/1.1" 200 - 0 0.000 0.013
+2025-11-07 20:57:37,880 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "GET /base/static/img/icons/web_studio.png HTTP/1.1" 200 - 0 0.000 0.009
+2025-11-07 20:57:37,881 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "GET /hr_recruitment/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2025-11-07 20:57:37,883 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "GET /base/static/img/icons/industry_fsm.png HTTP/1.1" 200 - 0 0.000 0.004
+2025-11-07 20:57:37,886 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "GET /hr/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2025-11-07 20:57:37,886 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "GET /data_recycle/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2025-11-07 20:57:37,888 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "GET /maintenance/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2025-11-07 20:57:37,888 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "GET /marketing_card/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2025-11-07 20:57:37,888 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "GET /base/static/img/icons/sign.png HTTP/1.1" 200 - 0 0.000 0.002
+2025-11-07 20:57:37,890 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "GET /base/static/img/icons/helpdesk.png HTTP/1.1" 200 - 0 0.000 0.003
+2025-11-07 20:57:37,890 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "GET /base/static/img/icons/sale_subscription.png HTTP/1.1" 200 - 0 0.000 0.002
+2025-11-07 20:57:37,892 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "GET /base/static/img/icons/quality_control.png HTTP/1.1" 200 - 0 0.000 0.002
+2025-11-07 20:57:37,893 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "GET /website_slides/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2025-11-07 20:57:37,894 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "GET /base/static/img/icons/planning.png HTTP/1.1" 200 - 0 0.000 0.002
+2025-11-07 20:57:37,895 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "GET /website_event/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2025-11-07 20:57:37,896 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "GET /contacts/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2025-11-07 20:57:37,896 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "GET /mail/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2025-11-07 20:57:37,897 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "GET /calendar/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2025-11-07 20:57:37,898 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "GET /base/static/img/icons/mrp_plm.png HTTP/1.1" 200 - 0 0.000 0.004
+2025-11-07 20:57:37,900 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "GET /base/static/img/icons/social.png HTTP/1.1" 200 - 0 0.000 0.004
+2025-11-07 20:57:37,901 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "GET /base/static/img/icons/hr_appraisal.png HTTP/1.1" 200 - 0 0.000 0.004
+2025-11-07 20:57:37,903 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "GET /base/static/img/icons/marketing_automation.png HTTP/1.1" 200 - 0 0.000 0.003
+2025-11-07 20:57:37,903 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "GET /fleet/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.004
+2025-11-07 20:57:37,904 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "GET /im_livechat/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2025-11-07 20:57:37,904 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "GET /base/static/img/icons/appointment.png HTTP/1.1" 200 - 0 0.000 0.002
+2025-11-07 20:57:37,905 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "GET /survey/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2025-11-07 20:57:37,906 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "GET /repair/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2025-11-07 20:57:37,906 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "GET /base/static/img/icons/web_mobile.png HTTP/1.1" 200 - 0 0.000 0.003
+2025-11-07 20:57:37,909 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "GET /hr_attendance/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.004
+2025-11-07 20:57:37,909 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "GET /base/static/img/icons/stock_barcode.png HTTP/1.1" 200 - 0 0.000 0.002
+2025-11-07 20:57:37,910 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "GET /mass_mailing_sms/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.004
+2025-11-07 20:57:37,911 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "GET /project_todo/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.004
+2025-11-07 20:57:37,911 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "GET /hr_skills/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2025-11-07 20:57:37,912 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "GET /base/static/img/icons/voip.png HTTP/1.1" 200 - 0 0.000 0.002
+2025-11-07 20:57:37,913 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "GET /lunch/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2025-11-07 20:57:37,914 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "GET /website_hr_recruitment/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2025-11-07 20:57:37,914 69748 INFO ? werkzeug: 127.0.0.1 - - [07/Nov/2025 20:57:37] "GET /base/static/img/icons/sale_amazon.png HTTP/1.1" 200 - 0 0.000 0.001
+2025-11-07 20:58:09,794 69748 INFO Charitha odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) starting 
+2025-11-07 20:58:09,900 69748 INFO Charitha odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2025-11-07 20:58:09,959 69748 INFO Charitha odoo.addons.base.models.ir_attachment: filestore gc 64 checked, 0 removed 
+2025-11-07 20:58:09,967 69748 INFO Charitha odoo.addons.base.models.res_users: GC 'auth_totp.device' delete 0 entries 
+2025-11-07 20:58:09,974 69748 INFO Charitha odoo.addons.base.models.res_users: GC 'res.users.apikeys' delete 0 entries 
+2025-11-07 20:58:09,990 69748 INFO Charitha odoo.addons.api_doc.models.ir_attachment: GC'd 0 /doc cached index 
+2025-11-07 20:58:10,016 69748 INFO Charitha odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2025-11-07 20:58:10,035 69748 INFO Charitha odoo.addons.base.models.res_users: GC'd 0 user log entries 
+2025-11-07 20:58:10,066 69748 INFO Charitha odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) fully done (#loop 1; done 44; remaining 0; duration 0.27s) 
+2025-11-07 20:58:10,077 69748 INFO Charitha odoo.addons.base.models.ir_cron: Job 'Base: Portal Users Deletion' (2) starting 
+2025-11-07 20:58:10,086 69748 INFO Charitha odoo.addons.base.models.ir_cron: Job 'Base: Portal Users Deletion' (2) fully done (#loop 1; done 0; remaining 0; duration 0.01s) 
+2025-11-07 20:59:10,121 69748 INFO Charitha odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) starting 
+2025-11-07 20:59:10,202 69748 INFO Charitha odoo.addons.api_doc.models.ir_attachment: GC'd 0 /doc cached index 
+2025-11-07 20:59:10,206 69748 INFO Charitha odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2025-11-07 20:59:10,233 69748 INFO Charitha odoo.addons.base.models.res_users: GC'd 0 user log entries 
+2025-11-07 20:59:10,255 69748 INFO Charitha odoo.addons.base.models.ir_attachment: filestore gc 0 checked, 0 removed 
+2025-11-07 20:59:10,258 69748 INFO Charitha odoo.addons.base.models.res_users: GC 'res.users.apikeys' delete 0 entries 
+2025-11-07 20:59:10,278 69748 INFO Charitha odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2025-11-07 20:59:10,280 69748 INFO Charitha odoo.addons.base.models.res_users: GC 'auth_totp.device' delete 0 entries 
+2025-11-07 20:59:10,290 69748 INFO Charitha odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) fully done (#loop 1; done 44; remaining 0; duration 0.17s) 
+2025-11-07 21:02:28,966 69748 INFO Charitha werkzeug: 127.0.0.1 - - [07/Nov/2025 21:02:28] "GET / HTTP/1.1" 303 - 1 0.002 0.008
+2025-11-07 21:02:29,051 69748 INFO Charitha werkzeug: 127.0.0.1 - - [07/Nov/2025 21:02:29] "GET /odoo HTTP/1.1" 200 - 8 0.005 0.015
+2025-11-07 21:02:29,072 69748 INFO Charitha werkzeug: 127.0.0.1 - - [07/Nov/2025 21:02:29] "GET /web/webclient/load_menus HTTP/1.1" 200 - 1 0.001 0.004
+2025-11-07 21:02:29,187 69748 INFO Charitha werkzeug: 127.0.0.1 - - [07/Nov/2025 21:02:29] "GET /web/webclient/translations?hash=ae90ab5f4c0da288bd95c52216c35e6c1d2849e7&lang=en_US HTTP/1.1" 200 - 1 0.001 0.003
+2025-11-07 21:02:29,196 69748 INFO Charitha werkzeug: 127.0.0.1 - - [07/Nov/2025 21:02:29] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 4 0.007 0.005
+2025-11-07 21:02:29,198 69748 INFO Charitha werkzeug: 127.0.0.1 - - [07/Nov/2025 21:02:29] "GET /bus/websocket_worker_bundle?v=saas-18.5-1 HTTP/1.1" 304 - 3 0.003 0.004
+2025-11-07 21:02:29,221 69748 INFO Charitha werkzeug: 127.0.0.1 - - [07/Nov/2025 21:02:29] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 8 0.010 0.009
+2025-11-07 21:02:29,223 69748 INFO Charitha werkzeug: 127.0.0.1 - - [07/Nov/2025 21:02:29] "GET /websocket?version=saas-18.5-1 HTTP/1.1" 101 - 1 0.001 0.004
+2025-11-07 21:02:29,225 69748 INFO Charitha werkzeug: 127.0.0.1 - - [07/Nov/2025 21:02:29] "POST /web/action/load HTTP/1.1" 200 - 10 0.015 0.007
+2025-11-07 21:02:29,252 69748 INFO Charitha werkzeug: 127.0.0.1 - - [07/Nov/2025 21:02:29] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 1 0.003 0.003
+2025-11-07 21:02:29,254 69748 INFO Charitha werkzeug: 127.0.0.1 - - [07/Nov/2025 21:02:29] "POST /web/dataset/call_kw/ir.module.module/get_views#ir.module.module.get_views HTTP/1.1" 200 - 2 0.002 0.010
+2025-11-07 21:02:29,263 69748 INFO Charitha werkzeug: 127.0.0.1 - - [07/Nov/2025 21:02:29] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.002
+2025-11-07 21:02:29,277 69748 INFO Charitha werkzeug: 127.0.0.1 - - [07/Nov/2025 21:02:29] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 3 0.005 0.025
+2025-11-07 21:02:29,287 69748 INFO Charitha werkzeug: 127.0.0.1 - - [07/Nov/2025 21:02:29] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 39 0.033 0.007
+2025-11-07 21:02:29,298 69748 INFO Charitha werkzeug: 127.0.0.1 - - [07/Nov/2025 21:02:29] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.002
+2025-11-07 21:02:31,000 69748 INFO Charitha werkzeug: 127.0.0.1 - - [07/Nov/2025 21:02:31] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.006
+2025-11-07 21:02:36,216 69748 INFO ? odoo.service.server: Initiating server reload 
+2025-11-08 07:32:19,867 9927 WARNING ? odoo.tools.config: option addons_path, no such directory '/Users/charithasreevijjada/Desktop/odoo_project/addons', skipped 
+2025-11-08 07:32:19,867 9927 WARNING ? odoo.tools.config: option addons_path, no such directory '/Users/charithasreevijjada/Desktop/odoo_project/custom_addons', skipped 
+2025-11-08 07:32:19,868 9927 WARNING ? odoo.tools.config: missing --http-interface/http_interface, using 0.0.0.0 by default, will change to 127.0.0.1 in 20.0 
+2025-11-08 07:32:19,868 9927 INFO ? odoo: Odoo version 19.0 
+2025-11-08 07:32:19,868 9927 INFO ? odoo: Using configuration file at /Users/charithasreevijjada/Desktop/odoo_project/odoo.conf 
+2025-11-08 07:32:19,868 9927 INFO ? odoo: addons paths: _NamespacePath(['/Users/charithasreevijjada/Desktop/odoo_project/odoo/odoo/addons', '/Users/charithasreevijjada/Library/Application Support/Odoo/addons/19.0', '/Users/charithasreevijjada/Desktop/odoo_project/odoo/addons']) 
+2025-11-08 07:32:19,868 9927 INFO ? odoo: database: odoo@localhost:5432 
+2025-11-08 07:32:20,769 9927 WARNING ? odoo.service.server: 'watchdog' module not installed. Code autoreload feature is disabled 
+2025-11-08 07:32:20,781 9927 INFO ? odoo.service.server: HTTP service (werkzeug) running on 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa:8069 
+2025-11-08 07:32:20,821 9927 INFO testingmylimit5 odoo.modules.loading: Initializing database testingmylimit5 
+2025-11-08 07:32:22,911 9927 INFO testingmylimit5 odoo.modules.loading: loading 1 modules... 
+2025-11-08 07:32:22,912 9927 INFO testingmylimit5 odoo.modules.loading: Loading module base (1/1) 
+2025-11-08 07:32:22,986 9927 INFO testingmylimit5 odoo.registry: module base: creating or updating database tables 
+2025-11-08 07:32:23,421 9927 INFO testingmylimit5 odoo.models: Prepare computation of ir.module.module.menus_by_module 
+2025-11-08 07:32:23,422 9927 INFO testingmylimit5 odoo.models: Prepare computation of ir.module.module.reports_by_module 
+2025-11-08 07:32:23,422 9927 INFO testingmylimit5 odoo.models: Prepare computation of ir.module.module.views_by_module 
+2025-11-08 07:32:23,584 9927 INFO testingmylimit5 odoo.models: Prepare computation of res.partner.user_id 
+2025-11-08 07:32:23,586 9927 INFO testingmylimit5 odoo.models: Prepare computation of res.partner.commercial_partner_id 
+2025-11-08 07:32:23,586 9927 INFO testingmylimit5 odoo.models: Prepare computation of res.partner.complete_name 
+2025-11-08 07:32:23,586 9927 INFO testingmylimit5 odoo.models: Prepare computation of res.partner.lang 
+2025-11-08 07:32:23,587 9927 INFO testingmylimit5 odoo.models: Prepare computation of res.partner.company_registry 
+2025-11-08 07:32:23,587 9927 INFO testingmylimit5 odoo.models: Prepare computation of res.partner.commercial_company_name 
+2025-11-08 07:32:23,587 9927 INFO testingmylimit5 odoo.models: Prepare computation of res.partner.properties 
+2025-11-08 07:32:23,588 9927 INFO testingmylimit5 odoo.models: Prepare computation of res.partner.partner_share 
+2025-11-08 07:32:23,642 9927 INFO testingmylimit5 odoo.models: Prepare computation of res.currency.decimal_places 
+2025-11-08 07:32:23,680 9927 INFO testingmylimit5 odoo.models: Prepare computation of res.company.uses_default_logo 
+2025-11-08 07:32:23,680 9927 INFO testingmylimit5 odoo.models: Prepare computation of res.company.logo_web 
+2025-11-08 07:32:23,683 9927 INFO testingmylimit5 odoo.models: Computing parent_path for table res_company... 
+2025-11-08 07:32:23,732 9927 INFO testingmylimit5 odoo.models: Prepare computation of res.users.signature 
+2025-11-08 07:32:23,733 9927 INFO testingmylimit5 odoo.models: Prepare computation of res.users.share 
+2025-11-08 07:32:25,146 9927 INFO testingmylimit5 odoo.modules.loading: loading base/data/res_bank.xml 
+2025-11-08 07:32:25,152 9927 INFO testingmylimit5 odoo.modules.loading: loading base/data/res.lang.csv 
+2025-11-08 07:32:25,220 9927 INFO testingmylimit5 odoo.modules.loading: loading base/data/res_lang_data.xml 
+2025-11-08 07:32:25,271 9927 INFO testingmylimit5 odoo.modules.loading: loading base/data/res_partner_data.xml 
+2025-11-08 07:32:25,346 9927 INFO testingmylimit5 odoo.modules.loading: loading base/data/res_currency_data.xml 
+2025-11-08 07:32:26,362 9927 INFO testingmylimit5 odoo.modules.loading: loading base/data/res_company_data.xml 
+2025-11-08 07:32:26,385 9927 INFO testingmylimit5 odoo.modules.loading: loading base/data/res_users_data.xml 
+2025-11-08 07:32:26,782 9927 INFO testingmylimit5 odoo.modules.loading: loading base/data/report_paperformat_data.xml 
+2025-11-08 07:32:26,793 9927 INFO testingmylimit5 odoo.modules.loading: loading base/data/res_country_data.xml 
+2025-11-08 07:32:28,163 9927 INFO testingmylimit5 odoo.modules.loading: loading base/data/ir_demo_data.xml 
+2025-11-08 07:32:28,205 9927 INFO testingmylimit5 odoo.modules.loading: loading base/security/base_groups.xml 
+2025-11-08 07:32:28,552 9927 INFO testingmylimit5 odoo.modules.loading: loading base/security/base_security.xml 
+2025-11-08 07:32:28,843 9927 INFO testingmylimit5 odoo.modules.loading: loading base/wizard/wizard_ir_model_menu_create_views.xml 
+2025-11-08 07:32:28,866 9927 INFO testingmylimit5 odoo.modules.loading: loading base/views/base_menus.xml 
+2025-11-08 07:32:28,965 9927 INFO testingmylimit5 odoo.modules.loading: loading base/views/decimal_precision_views.xml 
+2025-11-08 07:32:29,002 9927 INFO testingmylimit5 odoo.modules.loading: loading base/views/res_config_views.xml 
+2025-11-08 07:32:29,018 9927 INFO testingmylimit5 odoo.modules.loading: loading base/data/res.country.state.csv 
+2025-11-08 07:32:29,603 9927 INFO testingmylimit5 odoo.modules.loading: loading base/views/ir_actions_views.xml 
+2025-11-08 07:32:29,825 9927 INFO testingmylimit5 odoo.modules.loading: loading base/views/ir_asset_views.xml 
+2025-11-08 07:32:29,855 9927 INFO testingmylimit5 odoo.modules.loading: loading base/views/ir_config_parameter_views.xml 
+2025-11-08 07:32:29,887 9927 INFO testingmylimit5 odoo.modules.loading: loading base/views/ir_cron_views.xml 
+2025-11-08 07:32:29,939 9927 INFO testingmylimit5 odoo.modules.loading: loading base/views/ir_cron_trigger_views.xml 
+2025-11-08 07:32:29,971 9927 INFO testingmylimit5 odoo.modules.loading: loading base/views/ir_filters_views.xml 
+2025-11-08 07:32:30,015 9927 INFO testingmylimit5 odoo.modules.loading: loading base/views/ir_mail_server_views.xml 
+2025-11-08 07:32:30,056 9927 INFO testingmylimit5 odoo.modules.loading: loading base/views/ir_model_views.xml 
+2025-11-08 07:32:30,351 9927 INFO testingmylimit5 odoo.modules.loading: loading base/views/ir_attachment_views.xml 
+2025-11-08 07:32:30,397 9927 INFO testingmylimit5 odoo.modules.loading: loading base/views/ir_rule_views.xml 
+2025-11-08 07:32:30,438 9927 INFO testingmylimit5 odoo.modules.loading: loading base/views/ir_sequence_views.xml 
+2025-11-08 07:32:30,484 9927 INFO testingmylimit5 odoo.modules.loading: loading base/views/ir_ui_menu_views.xml 
+2025-11-08 07:32:30,526 9927 INFO testingmylimit5 odoo.modules.loading: loading base/views/ir_ui_view_views.xml 
+2025-11-08 07:32:30,631 9927 INFO testingmylimit5 odoo.modules.loading: loading base/views/ir_default_views.xml 
+2025-11-08 07:32:30,673 9927 INFO testingmylimit5 odoo.modules.loading: loading base/data/ir_config_parameter_data.xml 
+2025-11-08 07:32:30,678 9927 INFO testingmylimit5 odoo.modules.loading: loading base/data/ir_cron_data.xml 
+2025-11-08 07:32:30,704 9927 INFO testingmylimit5 odoo.modules.loading: loading base/report/ir_model_report.xml 
+2025-11-08 07:32:30,710 9927 INFO testingmylimit5 odoo.modules.loading: loading base/report/ir_model_templates.xml 
+2025-11-08 07:32:30,737 9927 INFO testingmylimit5 odoo.modules.loading: loading base/views/ir_logging_views.xml 
+2025-11-08 07:32:30,774 9927 INFO testingmylimit5 odoo.modules.loading: loading base/views/ir_qweb_widget_templates.xml 
+2025-11-08 07:32:30,806 9927 INFO testingmylimit5 odoo.modules.loading: loading base/views/ir_module_views.xml 
+2025-11-08 07:32:30,903 9927 INFO testingmylimit5 odoo.modules.loading: loading base/data/ir_module_category_data.xml 
+2025-11-08 07:32:30,967 9927 INFO testingmylimit5 odoo.modules.loading: loading base/data/ir_module_module.xml 
+2025-11-08 07:32:31,078 9927 INFO testingmylimit5 odoo.modules.loading: loading base/report/ir_module_reports.xml 
+2025-11-08 07:32:31,084 9927 INFO testingmylimit5 odoo.modules.loading: loading base/report/ir_module_report_templates.xml 
+2025-11-08 07:32:31,099 9927 INFO testingmylimit5 odoo.modules.loading: loading base/wizard/base_module_update_views.xml 
+2025-11-08 07:32:31,119 9927 INFO testingmylimit5 odoo.modules.loading: loading base/wizard/base_language_install_views.xml 
+2025-11-08 07:32:31,140 9927 INFO testingmylimit5 odoo.modules.loading: loading base/wizard/base_import_language_views.xml 
+2025-11-08 07:32:31,159 9927 INFO testingmylimit5 odoo.modules.loading: loading base/wizard/base_module_upgrade_views.xml 
+2025-11-08 07:32:31,192 9927 INFO testingmylimit5 odoo.modules.loading: loading base/wizard/base_module_uninstall_views.xml 
+2025-11-08 07:32:31,210 9927 INFO testingmylimit5 odoo.modules.loading: loading base/wizard/base_export_language_views.xml 
+2025-11-08 07:32:31,234 9927 INFO testingmylimit5 odoo.modules.loading: loading base/wizard/base_partner_merge_views.xml 
+2025-11-08 07:32:31,262 9927 INFO testingmylimit5 odoo.modules.loading: loading base/data/ir_demo_failure_data.xml 
+2025-11-08 07:32:31,295 9927 INFO testingmylimit5 odoo.modules.loading: loading base/views/ir_profile_views.xml 
+2025-11-08 07:32:31,347 9927 INFO testingmylimit5 odoo.modules.loading: loading base/views/res_company_views.xml 
+2025-11-08 07:32:31,396 9927 INFO testingmylimit5 odoo.modules.loading: loading base/views/res_lang_views.xml 
+2025-11-08 07:32:31,439 9927 INFO testingmylimit5 odoo.modules.loading: loading base/views/res_partner_views.xml 
+2025-11-08 07:32:31,616 9927 INFO testingmylimit5 odoo.modules.loading: loading base/views/res_bank_views.xml 
+2025-11-08 07:32:31,681 9927 INFO testingmylimit5 odoo.modules.loading: loading base/views/res_country_views.xml 
+2025-11-08 07:32:31,774 9927 INFO testingmylimit5 odoo.modules.loading: loading base/views/res_currency_views.xml 
+2025-11-08 07:32:31,854 9927 INFO testingmylimit5 odoo.modules.loading: loading base/views/res_groups_views.xml 
+2025-11-08 07:32:31,943 9927 INFO testingmylimit5 odoo.modules.loading: loading base/views/res_users_views.xml 
+2025-11-08 07:32:32,133 9927 INFO testingmylimit5 odoo.modules.loading: loading base/views/res_users_apikeys_views.xml 
+2025-11-08 07:32:32,144 9927 INFO testingmylimit5 odoo.modules.loading: loading base/views/res_device_views.xml 
+2025-11-08 07:32:32,187 9927 INFO testingmylimit5 odoo.modules.loading: loading base/views/res_users_identitycheck_views.xml 
+2025-11-08 07:32:32,202 9927 INFO testingmylimit5 odoo.modules.loading: loading base/views/res_config_settings_views.xml 
+2025-11-08 07:32:32,218 9927 INFO testingmylimit5 odoo.modules.loading: loading base/views/report_paperformat_views.xml 
+2025-11-08 07:32:32,264 9927 INFO testingmylimit5 odoo.modules.loading: loading base/security/ir.model.access.csv 
+2025-11-08 07:32:32,437 9927 INFO testingmylimit5 odoo.modules.loading: Module base: loading demo 
+2025-11-08 07:32:32,437 9927 INFO testingmylimit5 odoo.modules.loading: loading base/data/res_users_demo.xml 
+2025-11-08 07:32:33,430 9927 INFO testingmylimit5 odoo.modules.loading: loading base/data/res_partner_bank_demo.xml 
+2025-11-08 07:32:33,438 9927 INFO testingmylimit5 odoo.modules.loading: loading base/data/res_currency_demo.xml 
+2025-11-08 07:32:33,455 9927 INFO testingmylimit5 odoo.modules.loading: loading base/data/res_currency_rate_demo.xml 
+2025-11-08 07:32:33,971 9927 INFO testingmylimit5 odoo.modules.loading: loading base/data/res_bank_demo.xml 
+2025-11-08 07:32:33,982 9927 INFO testingmylimit5 odoo.modules.loading: loading base/data/res_partner_demo.xml 
+2025-11-08 07:32:34,350 9927 INFO testingmylimit5 odoo.modules.loading: loading base/data/res_partner_image_demo.xml 
+2025-11-08 07:32:34,956 9927 INFO testingmylimit5 odoo.modules.loading: Module base loaded in 12.04s, 9624 queries (+9624 other) 
+2025-11-08 07:32:34,957 9927 INFO testingmylimit5 odoo.modules.loading: 1 modules loaded in 12.05s, 9624 queries (+9624 extra) 
+2025-11-08 07:32:34,975 9927 INFO testingmylimit5 odoo.modules.loading: updating modules list 
+2025-11-08 07:32:34,977 9927 INFO testingmylimit5 odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2025-11-08 07:32:36,986 9927 WARNING testingmylimit5 odoo.modules.loading: invalid module names, ignored: student_management 
+2025-11-08 07:32:37,072 9927 INFO testingmylimit5 odoo.modules.loading: loading 14 modules... 
+2025-11-08 07:32:37,072 9927 INFO testingmylimit5 odoo.modules.loading: Loading module rpc (2/14) 
+2025-11-08 07:32:37,120 9927 INFO testingmylimit5 odoo.modules.loading: Module rpc loaded in 0.05s, 9 queries (+9 other) 
+2025-11-08 07:32:37,120 9927 INFO testingmylimit5 odoo.modules.loading: Loading module web (3/14) 
+2025-11-08 07:32:37,178 9927 INFO testingmylimit5 odoo.registry: module web: creating or updating database tables 
+2025-11-08 07:32:37,731 9927 INFO testingmylimit5 odoo.modules.loading: loading web/security/ir.model.access.csv 
+2025-11-08 07:32:37,739 9927 INFO testingmylimit5 odoo.modules.loading: loading web/security/web_security.xml 
+2025-11-08 07:32:37,749 9927 INFO testingmylimit5 odoo.modules.loading: loading web/views/webclient_templates.xml 
+2025-11-08 07:32:37,820 9927 INFO testingmylimit5 odoo.modules.loading: loading web/views/report_templates.xml 
+2025-11-08 07:32:38,003 9927 INFO testingmylimit5 odoo.modules.loading: loading web/views/base_document_layout_views.xml 
+2025-11-08 07:32:38,031 9927 INFO testingmylimit5 odoo.modules.loading: loading web/views/partner_view.xml 
+2025-11-08 07:32:38,043 9927 INFO testingmylimit5 odoo.modules.loading: loading web/views/speedscope_template.xml 
+2025-11-08 07:32:38,051 9927 INFO testingmylimit5 odoo.modules.loading: loading web/views/memory_template.xml 
+2025-11-08 07:32:38,064 9927 INFO testingmylimit5 odoo.modules.loading: loading web/views/speedscope_config_wizard.xml 
+2025-11-08 07:32:38,079 9927 INFO testingmylimit5 odoo.modules.loading: loading web/views/neutralize_views.xml 
+2025-11-08 07:32:38,092 9927 INFO testingmylimit5 odoo.modules.loading: loading web/views/ir_ui_view_views.xml 
+2025-11-08 07:32:38,110 9927 INFO testingmylimit5 odoo.modules.loading: loading web/data/ir_attachment.xml 
+2025-11-08 07:32:38,114 9927 INFO testingmylimit5 odoo.modules.loading: loading web/data/report_layout.xml 
+2025-11-08 07:32:38,138 9927 WARNING testingmylimit5 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='company.id' in template 218. Replace by @t-out 
+2025-11-08 07:32:38,139 9927 WARNING testingmylimit5 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='font' in template 218. Replace by @t-out 
+2025-11-08 07:32:38,139 9927 WARNING testingmylimit5 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='primary' in template 218. Replace by @t-out 
+2025-11-08 07:32:38,139 9927 WARNING testingmylimit5 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='secondary' in template 218. Replace by @t-out 
+2025-11-08 07:32:38,140 9927 WARNING testingmylimit5 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='primary' in template 218. Replace by @t-out 
+2025-11-08 07:32:38,140 9927 WARNING testingmylimit5 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='primary' in template 218. Replace by @t-out 
+2025-11-08 07:32:38,141 9927 WARNING testingmylimit5 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='primary' in template 218. Replace by @t-out 
+2025-11-08 07:32:38,141 9927 WARNING testingmylimit5 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='primary' in template 218. Replace by @t-out 
+2025-11-08 07:32:38,141 9927 WARNING testingmylimit5 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='secondary' in template 218. Replace by @t-out 
+2025-11-08 07:32:38,142 9927 WARNING testingmylimit5 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='secondary' in template 218. Replace by @t-out 
+2025-11-08 07:32:38,142 9927 WARNING testingmylimit5 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='primary' in template 218. Replace by @t-out 
+2025-11-08 07:32:38,142 9927 WARNING testingmylimit5 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='secondary' in template 218. Replace by @t-out 
+2025-11-08 07:32:38,143 9927 WARNING testingmylimit5 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='secondary' in template 218. Replace by @t-out 
+2025-11-08 07:32:38,143 9927 WARNING testingmylimit5 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='secondary' in template 218. Replace by @t-out 
+2025-11-08 07:32:38,144 9927 WARNING testingmylimit5 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='secondary' in template 218. Replace by @t-out 
+2025-11-08 07:32:38,144 9927 WARNING testingmylimit5 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='secondary' in template 218. Replace by @t-out 
+2025-11-08 07:32:38,144 9927 WARNING testingmylimit5 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='primary' in template 218. Replace by @t-out 
+2025-11-08 07:32:38,145 9927 WARNING testingmylimit5 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='primary' in template 218. Replace by @t-out 
+2025-11-08 07:32:38,145 9927 WARNING testingmylimit5 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='primary' in template 218. Replace by @t-out 
+2025-11-08 07:32:38,171 9927 INFO testingmylimit5 odoo.modules.loading: Module web loaded in 1.05s, 1268 queries (+1268 other) 
+2025-11-08 07:32:38,171 9927 INFO testingmylimit5 odoo.modules.loading: Loading module api_doc (4/14) 
+2025-11-08 07:32:38,180 9927 INFO testingmylimit5 odoo.registry: module api_doc: creating or updating database tables 
+2025-11-08 07:32:38,205 9927 INFO testingmylimit5 odoo.modules.loading: loading api_doc/security/res_groups.xml 
+2025-11-08 07:32:38,248 9927 INFO testingmylimit5 odoo.modules.loading: loading api_doc/views/docclient.xml 
+2025-11-08 07:32:38,275 9927 INFO testingmylimit5 odoo.modules.loading: Module api_doc loaded in 0.10s, 64 queries (+64 other) 
+2025-11-08 07:32:38,275 9927 INFO testingmylimit5 odoo.modules.loading: Loading module auth_totp (5/14) 
+2025-11-08 07:32:38,301 9927 INFO testingmylimit5 odoo.registry: module auth_totp: creating or updating database tables 
+2025-11-08 07:32:38,426 9927 INFO testingmylimit5 odoo.modules.loading: loading auth_totp/security/security.xml 
+2025-11-08 07:32:38,450 9927 INFO testingmylimit5 odoo.modules.loading: loading auth_totp/security/ir.model.access.csv 
+2025-11-08 07:32:38,459 9927 INFO testingmylimit5 odoo.modules.loading: loading auth_totp/data/ir_action_data.xml 
+2025-11-08 07:32:38,468 9927 INFO testingmylimit5 odoo.modules.loading: loading auth_totp/views/res_users_views.xml 
+2025-11-08 07:32:38,519 9927 INFO testingmylimit5 odoo.modules.loading: loading auth_totp/views/templates.xml 
+2025-11-08 07:32:38,527 9927 INFO testingmylimit5 odoo.modules.loading: loading auth_totp/wizard/auth_totp_wizard_views.xml 
+2025-11-08 07:32:38,549 9927 INFO testingmylimit5 odoo.modules.loading: Module auth_totp loaded in 0.27s, 223 queries (+223 other) 
+2025-11-08 07:32:38,549 9927 INFO testingmylimit5 odoo.modules.loading: Loading module base_import (6/14) 
+2025-11-08 07:32:38,598 9927 INFO testingmylimit5 odoo.registry: module base_import: creating or updating database tables 
+2025-11-08 07:32:39,189 9927 INFO testingmylimit5 odoo.modules.loading: loading base_import/security/ir.model.access.csv 
+2025-11-08 07:32:39,203 9927 INFO testingmylimit5 odoo.modules.loading: Module base_import loaded in 0.65s, 953 queries (+953 other) 
+2025-11-08 07:32:39,203 9927 INFO testingmylimit5 odoo.modules.loading: Loading module base_import_module (7/14) 
+2025-11-08 07:32:39,213 9927 INFO testingmylimit5 odoo.registry: module base_import_module: creating or updating database tables 
+2025-11-08 07:32:39,279 9927 INFO testingmylimit5 odoo.modules.loading: loading base_import_module/security/ir.model.access.csv 
+2025-11-08 07:32:39,285 9927 INFO testingmylimit5 odoo.modules.loading: loading base_import_module/views/base_import_module_view.xml 
+2025-11-08 07:32:39,304 9927 INFO testingmylimit5 odoo.modules.loading: loading base_import_module/views/ir_module_views.xml 
+2025-11-08 07:32:39,366 9927 INFO testingmylimit5 odoo.modules.loading: Module base_import_module loaded in 0.16s, 181 queries (+181 other) 
+2025-11-08 07:32:39,366 9927 INFO testingmylimit5 odoo.modules.loading: Loading module base_setup (8/14) 
+2025-11-08 07:32:39,380 9927 INFO testingmylimit5 odoo.registry: module base_setup: creating or updating database tables 
+2025-11-08 07:32:39,472 9927 INFO testingmylimit5 odoo.modules.loading: loading base_setup/data/base_setup_data.xml 
+2025-11-08 07:32:39,477 9927 INFO testingmylimit5 odoo.modules.loading: loading base_setup/views/res_config_settings_views.xml 
+2025-11-08 07:32:39,530 9927 INFO testingmylimit5 odoo.modules.loading: loading base_setup/views/res_partner_views.xml 
+2025-11-08 07:32:39,560 9927 INFO testingmylimit5 odoo.modules.loading: Module base_setup loaded in 0.19s, 156 queries (+156 other) 
+2025-11-08 07:32:39,560 9927 INFO testingmylimit5 odoo.modules.loading: Loading module bus (9/14) 
+2025-11-08 07:32:39,672 9927 INFO testingmylimit5 odoo.registry: module bus: creating or updating database tables 
+2025-11-08 07:32:39,818 9927 INFO testingmylimit5 odoo.modules.loading: loading bus/security/ir.model.access.csv 
+2025-11-08 07:32:39,835 9927 INFO testingmylimit5 odoo.modules.loading: Module bus loaded in 0.27s, 152 queries (+152 other) 
+2025-11-08 07:32:39,835 9927 INFO testingmylimit5 odoo.modules.loading: Loading module web_tour (10/14) 
+2025-11-08 07:32:39,847 9927 INFO testingmylimit5 odoo.registry: module web_tour: creating or updating database tables 
+2025-11-08 07:32:39,856 9927 INFO testingmylimit5 odoo.models: Prepare computation of res.users.tour_enabled 
+2025-11-08 07:32:39,970 9927 INFO testingmylimit5 odoo.modules.loading: loading web_tour/security/ir.model.access.csv 
+2025-11-08 07:32:39,978 9927 INFO testingmylimit5 odoo.modules.loading: loading web_tour/views/tour_views.xml 
+2025-11-08 07:32:40,028 9927 INFO testingmylimit5 odoo.modules.loading: Module web_tour loaded in 0.19s, 179 queries (+179 other) 
+2025-11-08 07:32:40,028 9927 INFO testingmylimit5 odoo.modules.loading: Loading module auth_passkey (11/14) 
+2025-11-08 07:32:40,098 9927 INFO testingmylimit5 odoo.registry: module auth_passkey: creating or updating database tables 
+2025-11-08 07:32:40,206 9927 INFO testingmylimit5 odoo.modules.loading: loading auth_passkey/views/auth_passkey_key_views.xml 
+2025-11-08 07:32:40,235 9927 INFO testingmylimit5 odoo.modules.loading: loading auth_passkey/views/auth_passkey_login_templates.xml 
+2025-11-08 07:32:40,257 9927 INFO testingmylimit5 odoo.modules.loading: loading auth_passkey/views/res_users_identitycheck_views.xml 
+2025-11-08 07:32:40,273 9927 INFO testingmylimit5 odoo.modules.loading: loading auth_passkey/views/res_users_views.xml 
+2025-11-08 07:32:40,318 9927 INFO testingmylimit5 odoo.modules.loading: loading auth_passkey/security/ir.model.access.csv 
+2025-11-08 07:32:40,332 9927 INFO testingmylimit5 odoo.modules.loading: loading auth_passkey/security/security.xml 
+2025-11-08 07:32:40,370 9927 INFO testingmylimit5 odoo.modules.loading: Module auth_passkey loaded in 0.34s, 232 queries (+232 other) 
+2025-11-08 07:32:40,370 9927 INFO testingmylimit5 odoo.modules.loading: Loading module html_editor (12/14) 
+2025-11-08 07:32:40,658 9927 INFO testingmylimit5 odoo.registry: module html_editor: creating or updating database tables 
+2025-11-08 07:32:41,418 9927 INFO testingmylimit5 odoo.modules.loading: loading html_editor/security/ir.model.access.csv 
+2025-11-08 07:32:41,432 9927 INFO testingmylimit5 odoo.modules.loading: Module html_editor loaded in 1.06s, 1031 queries (+1031 other) 
+2025-11-08 07:32:41,432 9927 INFO testingmylimit5 odoo.modules.loading: Loading module iap (13/14) 
+2025-11-08 07:32:41,436 9927 INFO testingmylimit5 odoo.registry: module iap: creating or updating database tables 
+2025-11-08 07:32:41,494 9927 INFO testingmylimit5 odoo.modules.loading: loading iap/data/services.xml 
+2025-11-08 07:32:41,498 9927 INFO testingmylimit5 odoo.modules.loading: loading iap/security/ir.model.access.csv 
+2025-11-08 07:32:41,506 9927 INFO testingmylimit5 odoo.modules.loading: loading iap/security/ir_rule.xml 
+2025-11-08 07:32:41,511 9927 INFO testingmylimit5 odoo.modules.loading: loading iap/views/iap_views.xml 
+2025-11-08 07:32:41,539 9927 INFO testingmylimit5 odoo.modules.loading: loading iap/views/res_config_settings.xml 
+2025-11-08 07:32:41,575 9927 INFO testingmylimit5 odoo.modules.loading: Module iap loaded in 0.14s, 193 queries (+193 other) 
+2025-11-08 07:32:41,575 9927 INFO testingmylimit5 odoo.modules.loading: Loading module web_unsplash (14/14) 
+2025-11-08 07:32:41,591 9927 INFO testingmylimit5 odoo.registry: module web_unsplash: creating or updating database tables 
+2025-11-08 07:32:41,677 9927 INFO testingmylimit5 odoo.modules.loading: loading web_unsplash/views/res_config_settings_view.xml 
+2025-11-08 07:32:41,733 9927 INFO testingmylimit5 odoo.modules.loading: Module web_unsplash loaded in 0.16s, 111 queries (+111 other) 
+2025-11-08 07:32:41,733 9927 INFO testingmylimit5 odoo.modules.loading: 14 modules loaded in 4.66s, 4752 queries (+4752 extra) 
+2025-11-08 07:32:41,927 9927 INFO testingmylimit5 odoo.modules.loading: Modules loaded. 
+2025-11-08 07:32:41,931 9927 INFO testingmylimit5 odoo.registry: Registry changed, signaling through the database 
+2025-11-08 07:32:41,932 9927 INFO testingmylimit5 odoo.registry: Registry loaded in 21.149s 
+2025-11-08 07:33:48,808 9927 WARNING ? odoo.http: Logged into database 'Charitha', but dbfilter rejects it; logging session out. 
+2025-11-08 07:33:48,817 9927 INFO testingmylimit5 odoo.addons.base.models.ir_http: Generating routing map for key None 
+2025-11-08 07:33:48,852 9927 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 07:33:48] "GET / HTTP/1.1" 303 - 8 0.007 0.040
+2025-11-08 07:33:48,877 9927 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 07:33:48] "GET /odoo HTTP/1.1" 303 - 4 0.002 0.005
+2025-11-08 07:33:48,951 9927 WARNING testingmylimit5 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='error' in template 189. Replace by @t-out 
+2025-11-08 07:33:48,952 9927 WARNING testingmylimit5 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='message' in template 189. Replace by @t-out 
+2025-11-08 07:33:48,970 9927 WARNING testingmylimit5 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='error' in template 189. Replace by @t-out 
+2025-11-08 07:33:48,971 9927 WARNING testingmylimit5 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='message' in template 189. Replace by @t-out 
+2025-11-08 07:33:48,985 9927 WARNING testingmylimit5 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc="title or 'Odoo'" in template 185. Replace by @t-out 
+2025-11-08 07:33:48,986 9927 WARNING testingmylimit5 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='request.csrf_token(None)' in template 185. Replace by @t-out 
+2025-11-08 07:33:48,987 9927 WARNING testingmylimit5 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='debug' in template 185. Replace by @t-out 
+2025-11-08 07:33:49,136 9927 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 07:33:49] "GET /web/login?redirect=%2Fodoo%3F HTTP/1.1" 200 - 56 0.023 0.219
+2025-11-08 07:33:49,184 9927 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 07:33:49] "GET /web/binary/company_logo HTTP/1.1" 200 - 5 0.010 0.015
+2025-11-08 07:33:49,238 9927 INFO testingmylimit5 odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/9578b1c/web.assets_frontend_minimal.min.js (id:199) 
+2025-11-08 07:33:49,241 9927 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 07:33:49] "GET /web/assets/9578b1c/web.assets_frontend_minimal.min.js HTTP/1.1" 200 - 16 0.010 0.043
+2025-11-08 07:33:49,724 9927 INFO testingmylimit5 odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/4b95691/web.assets_frontend.min.css (id:200) 
+2025-11-08 07:33:49,726 9927 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 07:33:49] "GET /web/assets/4b95691/web.assets_frontend.min.css HTTP/1.1" 200 - 22 0.044 0.524
+2025-11-08 07:33:50,701 9927 INFO testingmylimit5 odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/4a98915/web.assets_frontend_lazy.min.js (id:201) 
+2025-11-08 07:33:50,703 9927 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 07:33:50] "GET /web/assets/4a98915/web.assets_frontend_lazy.min.js HTTP/1.1" 200 - 23 0.025 0.870
+2025-11-08 07:33:50,800 9927 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 07:33:50] "GET /web/webclient/translations?hash=&lang= HTTP/1.1" 200 - 6 0.004 0.008
+2025-11-08 07:33:52,311 9927 INFO testingmylimit5 odoo.addons.base.models.res_users: Login failed for login:charitha220042@gmail.com from 127.0.0.1 
+2025-11-08 07:33:52,378 9927 WARNING testingmylimit5 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='error' in template 189. Replace by @t-out 
+2025-11-08 07:33:52,379 9927 WARNING testingmylimit5 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='message' in template 189. Replace by @t-out 
+2025-11-08 07:33:52,401 9927 WARNING testingmylimit5 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='error' in template 189. Replace by @t-out 
+2025-11-08 07:33:52,402 9927 WARNING testingmylimit5 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='message' in template 189. Replace by @t-out 
+2025-11-08 07:33:52,419 9927 WARNING testingmylimit5 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc="title or 'Odoo'" in template 185. Replace by @t-out 
+2025-11-08 07:33:52,420 9927 WARNING testingmylimit5 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='request.csrf_token(None)' in template 185. Replace by @t-out 
+2025-11-08 07:33:52,420 9927 WARNING testingmylimit5 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='debug' in template 185. Replace by @t-out 
+2025-11-08 07:33:52,523 9927 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 07:33:52] "POST /web/login HTTP/1.1" 200 - 47 0.021 0.208
+2025-11-08 07:33:52,549 9927 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 07:33:52] "GET /web/binary/company_logo HTTP/1.1" 304 - 5 0.003 0.007
+2025-11-08 07:33:52,604 9927 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 07:33:52] "GET /web/webclient/translations?hash=f6edbf8f3d4b4718c81674d8056d895de3641cc4&lang= HTTP/1.1" 200 - 5 0.002 0.005
+2025-11-08 07:33:56,002 9927 INFO testingmylimit5 odoo.addons.base.models.res_users: Login failed for login:charitha220042@gmail.com from 127.0.0.1 
+2025-11-08 07:33:56,067 9927 WARNING testingmylimit5 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='error' in template 189. Replace by @t-out 
+2025-11-08 07:33:56,068 9927 WARNING testingmylimit5 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='message' in template 189. Replace by @t-out 
+2025-11-08 07:33:56,089 9927 WARNING testingmylimit5 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='error' in template 189. Replace by @t-out 
+2025-11-08 07:33:56,091 9927 WARNING testingmylimit5 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='message' in template 189. Replace by @t-out 
+2025-11-08 07:33:56,108 9927 WARNING testingmylimit5 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc="title or 'Odoo'" in template 185. Replace by @t-out 
+2025-11-08 07:33:56,109 9927 WARNING testingmylimit5 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='request.csrf_token(None)' in template 185. Replace by @t-out 
+2025-11-08 07:33:56,109 9927 WARNING testingmylimit5 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='debug' in template 185. Replace by @t-out 
+2025-11-08 07:33:56,211 9927 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 07:33:56] "POST /web/login HTTP/1.1" 200 - 45 0.020 0.207
+2025-11-08 07:33:56,232 9927 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 07:33:56] "GET /web/binary/company_logo HTTP/1.1" 304 - 5 0.002 0.006
+2025-11-08 07:33:56,267 9927 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 07:33:56] "GET /web/webclient/translations?hash=f6edbf8f3d4b4718c81674d8056d895de3641cc4&lang= HTTP/1.1" 200 - 5 0.002 0.007
+2025-11-08 07:34:24,299 9927 INFO testingmylimit5 odoo.addons.base.models.res_users: Login failed for login:charitha220042@gmail.com from 127.0.0.1 
+2025-11-08 07:34:24,361 9927 WARNING testingmylimit5 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='error' in template 189. Replace by @t-out 
+2025-11-08 07:34:24,362 9927 WARNING testingmylimit5 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='message' in template 189. Replace by @t-out 
+2025-11-08 07:34:24,383 9927 WARNING testingmylimit5 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='error' in template 189. Replace by @t-out 
+2025-11-08 07:34:24,384 9927 WARNING testingmylimit5 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='message' in template 189. Replace by @t-out 
+2025-11-08 07:34:24,400 9927 WARNING testingmylimit5 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc="title or 'Odoo'" in template 185. Replace by @t-out 
+2025-11-08 07:34:24,402 9927 WARNING testingmylimit5 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='request.csrf_token(None)' in template 185. Replace by @t-out 
+2025-11-08 07:34:24,402 9927 WARNING testingmylimit5 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='debug' in template 185. Replace by @t-out 
+2025-11-08 07:34:24,505 9927 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 07:34:24] "POST /web/login HTTP/1.1" 200 - 45 0.019 0.204
+2025-11-08 07:34:24,524 9927 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 07:34:24] "GET /web/binary/company_logo HTTP/1.1" 304 - 5 0.002 0.006
+2025-11-08 07:34:24,565 9927 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 07:34:24] "GET /web/webclient/translations?hash=f6edbf8f3d4b4718c81674d8056d895de3641cc4&lang= HTTP/1.1" 200 - 5 0.003 0.007
+2025-11-08 07:34:41,611 9927 INFO testingmylimit5 odoo.addons.base.models.res_users: Login successful for login:admin from 127.0.0.1 
+2025-11-08 07:34:41,631 9927 INFO testingmylimit5 odoo.registry: Caches invalidated, signaling through the database: ['default'] 
+2025-11-08 07:34:41,633 9927 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 07:34:41] "POST /web/login HTTP/1.1" 303 - 29 0.027 0.210
+2025-11-08 07:34:41,649 9927 INFO testingmylimit5 odoo.addons.base.models.res_device: User 2 inserts device log (dq0HYltWBZlsrIFoyPFRFEqINzpeFuUZBWInez-Rs8) 
+2025-11-08 07:34:42,006 9927 WARNING testingmylimit5 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc="title or 'Odoo'" in template 184. Replace by @t-out 
+2025-11-08 07:34:42,007 9927 WARNING testingmylimit5 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='request.csrf_token(None)' in template 184. Replace by @t-out 
+2025-11-08 07:34:42,007 9927 WARNING testingmylimit5 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='debug' in template 184. Replace by @t-out 
+2025-11-08 07:34:42,013 9927 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 07:34:42] "GET /odoo HTTP/1.1" 200 - 62 0.030 0.341
+2025-11-08 07:34:42,058 9927 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 07:34:42] "GET /web/webclient/load_menus HTTP/1.1" 200 - 13 0.009 0.014
+2025-11-08 07:34:42,115 9927 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 07:34:42] "GET /web/webclient/translations?hash=&lang=en_US HTTP/1.1" 200 - 1 0.001 0.004
+2025-11-08 07:34:42,136 9927 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 07:34:42] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 7 0.018 0.006
+2025-11-08 07:34:42,173 9927 INFO testingmylimit5 odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/854de08/bus.websocket_worker_assets.min.js (id:202) 
+2025-11-08 07:34:42,185 9927 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 07:34:42] "GET /bus/websocket_worker_bundle?v=saas-18.5-1 HTTP/1.1" 304 - 9 0.009 0.048
+2025-11-08 07:34:42,187 9927 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 07:34:42] "POST /web/action/load HTTP/1.1" 200 - 10 0.024 0.019
+2025-11-08 07:34:42,219 9927 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 07:34:42] "GET /websocket?version=saas-18.5-1 HTTP/1.1" 101 - 1 0.003 0.015
+2025-11-08 07:34:42,222 9927 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 07:34:42] "GET /web/image/res.partner/3/avatar_128?unique=1762572881000 HTTP/1.1" 200 - 17 0.037 0.039
+2025-11-08 07:34:42,228 9927 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 07:34:42] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 19 0.036 0.042
+2025-11-08 07:34:42,296 9927 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 07:34:42] "POST /web/dataset/call_kw/ir.module.module/get_views#ir.module.module.get_views HTTP/1.1" 200 - 49 0.022 0.058
+2025-11-08 07:34:42,311 9927 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 07:34:42] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 1 0.001 0.008
+2025-11-08 07:34:42,327 9927 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 07:34:42] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.004
+2025-11-08 07:34:42,350 9927 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 07:34:42] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 56 0.023 0.022
+2025-11-08 07:34:42,377 9927 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 07:34:42] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 6 0.006 0.063
+2025-11-08 07:34:42,418 9927 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 07:34:42] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.004
+2025-11-08 07:34:42,533 9927 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2025-11-08 07:43:53,617 9927 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 07:43:53] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.016 0.022
+2025-11-08 07:50:10,666 9927 INFO testingmylimit5 odoo.service.server: Initiating shutdown 
+2025-11-08 07:50:10,669 9927 INFO testingmylimit5 odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-11-08 07:50:10,881 9927 INFO testingmylimit5 odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 2 connections  
