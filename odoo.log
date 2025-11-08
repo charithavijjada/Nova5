@@ -639,3 +639,440 @@ LINE 3:             FROM ir_module_module
 2025-11-08 07:50:10,666 9927 INFO testingmylimit5 odoo.service.server: Initiating shutdown 
 2025-11-08 07:50:10,669 9927 INFO testingmylimit5 odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
 2025-11-08 07:50:10,881 9927 INFO testingmylimit5 odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 2 connections  
+2025-11-08 10:16:21,372 24962 WARNING ? odoo.tools.config: option addons_path, no such directory '/Users/charithasreevijjada/Desktop/odoo_project/custom_addons', skipped 
+2025-11-08 10:16:21,372 24962 WARNING ? odoo.tools.config: missing --http-interface/http_interface, using 0.0.0.0 by default, will change to 127.0.0.1 in 20.0 
+2025-11-08 10:16:21,373 24962 INFO ? odoo: Odoo version 19.0 
+2025-11-08 10:16:21,373 24962 INFO ? odoo: Using configuration file at /Users/charithasreevijjada/Desktop/odoo_project/odoo.conf 
+2025-11-08 10:16:21,373 24962 INFO ? odoo: addons paths: _NamespacePath(['/Users/charithasreevijjada/Desktop/odoo_project/odoo/odoo/addons', '/Users/charithasreevijjada/Library/Application Support/Odoo/addons/19.0', '/Users/charithasreevijjada/Desktop/odoo_project/odoo/addons', '/Users/charithasreevijjada/Desktop/odoo_project/custom_devs']) 
+2025-11-08 10:16:21,373 24962 INFO ? odoo: database: odoo@localhost:5432 
+2025-11-08 10:16:21,922 24962 INFO ? odoo.service.server: HTTP service (werkzeug) running on 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa:8069 
+2025-11-08 10:17:03,729 24962 INFO ? odoo.modules.loading: loading 1 modules... 
+2025-11-08 10:17:03,737 24962 INFO ? odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2025-11-08 10:17:03,746 24962 INFO ? odoo.modules.loading: loading 14 modules... 
+2025-11-08 10:17:04,212 24962 INFO ? odoo.modules.loading: 14 modules loaded in 0.47s, 0 queries (+0 extra) 
+2025-11-08 10:17:04,236 24962 INFO ? odoo.modules.loading: Modules loaded. 
+2025-11-08 10:17:04,248 24962 INFO ? odoo.registry: Registry loaded in 0.591s 
+2025-11-08 10:17:04,250 24962 INFO testingmylimit5 odoo.addons.base.models.ir_http: Generating routing map for key None 
+2025-11-08 10:17:04,266 24962 INFO testingmylimit5 odoo.addons.base.models.res_device: User 2 inserts device log (dq0HYltWBZlsrIFoyPFRFEqINzpeFuUZBWInez-Rs8) 
+2025-11-08 10:17:04,273 24962 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:17:04] "GET /websocket?version=saas-18.5-1 HTTP/1.1" 101 - 22 0.061 0.562
+2025-11-08 10:17:04,332 24962 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:17:04] "POST /bus/has_missed_notifications HTTP/1.1" 200 - 2 0.002 0.002
+2025-11-08 10:17:04,597 24962 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2025-11-08 10:17:22,156 24962 INFO testingmylimit5 odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) starting 
+2025-11-08 10:17:22,272 24962 INFO testingmylimit5 odoo.addons.base.models.res_device: GC device logs delete 1 entries 
+2025-11-08 10:17:22,289 24962 INFO testingmylimit5 odoo.addons.base.models.res_users: GC 'auth_totp.device' delete 0 entries 
+2025-11-08 10:17:22,377 24962 INFO testingmylimit5 odoo.addons.api_doc.models.ir_attachment: GC'd 0 /doc cached index 
+2025-11-08 10:17:22,386 24962 INFO testingmylimit5 odoo.addons.base.models.res_users: GC'd 0 user log entries 
+2025-11-08 10:17:22,416 24962 INFO testingmylimit5 odoo.addons.base.models.ir_attachment: filestore gc 64 checked, 0 removed 
+2025-11-08 10:17:22,445 24962 INFO testingmylimit5 odoo.addons.base.models.res_users: GC 'res.users.apikeys' delete 0 entries 
+2025-11-08 10:17:22,449 24962 INFO testingmylimit5 odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2025-11-08 10:17:22,460 24962 INFO testingmylimit5 odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) fully done (#loop 1; done 44; remaining 0; duration 0.30s) 
+2025-11-08 10:17:22,476 24962 INFO testingmylimit5 odoo.addons.base.models.ir_cron: Job 'Base: Portal Users Deletion' (2) starting 
+2025-11-08 10:17:22,489 24962 INFO testingmylimit5 odoo.addons.base.models.ir_cron: Job 'Base: Portal Users Deletion' (2) fully done (#loop 1; done 0; remaining 0; duration 0.01s) 
+2025-11-08 10:17:45,146 24962 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:17:45] "GET / HTTP/1.1" 303 - 2 0.002 0.007
+2025-11-08 10:17:45,416 24962 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:17:45] "GET /odoo HTTP/1.1" 200 - 52 0.026 0.171
+2025-11-08 10:17:45,538 24962 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:17:45] "GET /web/webclient/load_menus HTTP/1.1" 200 - 13 0.093 0.009
+2025-11-08 10:17:46,123 24962 INFO testingmylimit5 odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/dc32713/web.assets_web.min.css (id:203) 
+2025-11-08 10:17:46,170 24962 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:17:46] "GET /web/assets/dc32713/web.assets_web.min.css HTTP/1.1" 200 - 14 0.068 0.666
+2025-11-08 10:17:47,058 24962 INFO testingmylimit5 odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/cf151bf/web.assets_web_print.min.css (id:204) 
+2025-11-08 10:17:47,073 24962 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:17:47] "GET /web/assets/cf151bf/web.assets_web_print.min.css HTTP/1.1" 200 - 8 0.038 0.842
+2025-11-08 10:17:47,975 24962 INFO testingmylimit5 odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/b066ee4/web.assets_web.min.js (id:205) 
+2025-11-08 10:17:47,986 24962 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:17:47] "GET /web/assets/b066ee4/web.assets_web.min.js HTTP/1.1" 200 - 11 0.008 2.546
+2025-11-08 10:17:48,130 24962 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:17:48] "GET /web/webclient/translations?hash=ae90ab5f4c0da288bd95c52216c35e6c1d2849e7&lang=en_US HTTP/1.1" 200 - 2 0.002 0.003
+2025-11-08 10:17:48,132 24962 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:17:48] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 6 0.004 0.002
+2025-11-08 10:17:48,171 24962 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:17:48] "POST /web/action/load HTTP/1.1" 200 - 10 0.013 0.005
+2025-11-08 10:17:48,173 24962 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:17:48] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 15 0.010 0.008
+2025-11-08 10:17:48,205 24962 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:17:48] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 5 0.004 0.015
+2025-11-08 10:17:48,214 24962 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:17:48] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.008
+2025-11-08 10:17:48,228 24962 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:17:48] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 43 0.033 0.008
+2025-11-08 10:17:48,250 24962 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:17:48] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.002
+2025-11-08 10:17:48,255 24962 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:17:48] "POST /web/dataset/call_kw/ir.module.module/get_views#ir.module.module.get_views HTTP/1.1" 200 - 41 0.048 0.027
+2025-11-08 10:17:48,262 24962 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:17:48] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 3 0.012 0.059
+2025-11-08 10:17:49,941 24962 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:17:49] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.005
+2025-11-08 10:18:50,670 24962 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:18:50] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 39 0.019 0.024
+2025-11-08 10:18:50,700 24962 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:18:50] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 4 0.011 0.060
+2025-11-08 10:18:50,755 24962 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:18:50] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.002 0.002
+2025-11-08 10:18:50,776 24962 INFO ? werkzeug: 127.0.0.1 - - [08/Nov/2025 10:18:50] "GET /base/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2025-11-08 10:18:55,148 24962 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:18:55] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 39 0.015 0.022
+2025-11-08 10:18:55,159 24962 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:18:55] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 2 0.003 0.004
+2025-11-08 10:18:55,169 24962 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:18:55] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.003
+2025-11-08 10:18:55,185 24962 INFO ? werkzeug: 127.0.0.1 - - [08/Nov/2025 10:18:55] "GET /web/static/img/empty_folder.svg HTTP/1.1" 200 - 0 0.000 0.002
+2025-11-08 10:20:02,148 24962 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:20:02] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 39 0.018 0.026
+2025-11-08 10:20:02,163 24962 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:20:02] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 2 0.002 0.005
+2025-11-08 10:20:02,173 24962 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:20:02] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.003
+2025-11-08 10:42:53,564 24962 INFO ? odoo.service.server: Initiating shutdown 
+2025-11-08 10:42:53,568 24962 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-11-08 10:42:53,754 24962 INFO ? odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 5 connections  
+2025-11-08 10:43:21,159 25662 WARNING ? odoo.tools.config: option addons_path, no such directory '/Users/charithasreevijjada/Desktop/odoo_project/custom_addons', skipped 
+2025-11-08 10:43:21,159 25662 WARNING ? odoo.tools.config: missing --http-interface/http_interface, using 0.0.0.0 by default, will change to 127.0.0.1 in 20.0 
+2025-11-08 10:43:21,159 25662 INFO ? odoo: Odoo version 19.0 
+2025-11-08 10:43:21,159 25662 INFO ? odoo: Using configuration file at /Users/charithasreevijjada/Desktop/odoo_project/odoo.conf 
+2025-11-08 10:43:21,160 25662 INFO ? odoo: addons paths: _NamespacePath(['/Users/charithasreevijjada/Desktop/odoo_project/odoo/odoo/addons', '/Users/charithasreevijjada/Library/Application Support/Odoo/addons/19.0', '/Users/charithasreevijjada/Desktop/odoo_project/odoo/addons', '/Users/charithasreevijjada/Desktop/odoo_project/custom_devs']) 
+2025-11-08 10:43:21,160 25662 INFO ? odoo: database: odoo@localhost:5432 
+2025-11-08 10:43:21,389 25662 INFO ? odoo.service.server: HTTP service (werkzeug) running on 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa:8069 
+2025-11-08 10:43:34,942 25662 INFO ? odoo.modules.loading: loading 1 modules... 
+2025-11-08 10:43:34,951 25662 INFO ? odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2025-11-08 10:43:34,960 25662 INFO ? odoo.modules.loading: loading 14 modules... 
+2025-11-08 10:43:35,123 25662 INFO ? odoo.modules.loading: 14 modules loaded in 0.16s, 0 queries (+0 extra) 
+2025-11-08 10:43:35,146 25662 INFO ? odoo.modules.loading: Modules loaded. 
+2025-11-08 10:43:35,160 25662 INFO ? odoo.registry: Registry loaded in 0.261s 
+2025-11-08 10:43:35,161 25662 INFO testingmylimit5 odoo.addons.base.models.ir_http: Generating routing map for key None 
+2025-11-08 10:43:35,177 25662 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:43:35] "GET /websocket?version=saas-18.5-1 HTTP/1.1" 101 - 22 0.048 0.236
+2025-11-08 10:43:35,192 25662 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:43:35] "POST /bus/has_missed_notifications HTTP/1.1" 200 - 2 0.002 0.002
+2025-11-08 10:43:35,508 25662 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2025-11-08 10:43:36,359 25662 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:43:36] "GET /odoo/apps HTTP/1.1" 200 - 53 0.042 0.179
+2025-11-08 10:43:36,457 25662 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:43:36] "GET /web/webclient/load_menus HTTP/1.1" 200 - 13 0.070 0.006
+2025-11-08 10:43:36,506 25662 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:43:36] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 6 0.003 0.003
+2025-11-08 10:43:36,512 25662 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:43:36] "GET /web/webclient/translations?hash=ae90ab5f4c0da288bd95c52216c35e6c1d2849e7&lang=en_US HTTP/1.1" 200 - 2 0.004 0.006
+2025-11-08 10:43:36,543 25662 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:43:36] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 15 0.008 0.007
+2025-11-08 10:43:36,557 25662 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:43:36] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 5 0.002 0.006
+2025-11-08 10:43:36,578 25662 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:43:36] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.003 0.007
+2025-11-08 10:43:36,587 25662 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:43:36] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 42 0.027 0.011
+2025-11-08 10:43:36,612 25662 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:43:36] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.001
+2025-11-08 10:43:36,613 25662 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:43:36] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 4 0.007 0.056
+2025-11-08 10:43:36,620 25662 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:43:36] "POST /web/dataset/call_kw/ir.module.module/get_views#ir.module.module.get_views HTTP/1.1" 200 - 41 0.060 0.026
+2025-11-08 10:43:38,320 25662 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:43:38] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.005
+2025-11-08 10:43:41,560 25662 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:43:41] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 2 0.004 0.004
+2025-11-08 10:43:41,576 25662 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:43:41] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.003
+2025-11-08 10:43:41,580 25662 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:43:41] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 39 0.017 0.020
+2025-11-08 10:45:26,216 25662 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:45:26] "GET /odoo/apps HTTP/1.1" 200 - 8 0.004 0.018
+2025-11-08 10:45:26,242 25662 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:45:26] "GET /web/webclient/load_menus HTTP/1.1" 200 - 1 0.001 0.008
+2025-11-08 10:45:26,391 25662 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:45:26] "GET /web/webclient/translations?hash=ae90ab5f4c0da288bd95c52216c35e6c1d2849e7&lang=en_US HTTP/1.1" 200 - 1 0.002 0.003
+2025-11-08 10:45:26,436 25662 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:45:26] "POST /web/dataset/call_kw/ir.module.module/get_views#ir.module.module.get_views HTTP/1.1" 200 - 2 0.003 0.040
+2025-11-08 10:45:26,436 25662 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:45:26] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 1 0.001 0.033
+2025-11-08 10:45:26,436 25662 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:45:26] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 4 0.035 0.004
+2025-11-08 10:45:26,441 25662 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:45:26] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.002 0.002
+2025-11-08 10:45:26,457 25662 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:45:26] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 39 0.015 0.039
+2025-11-08 10:45:26,458 25662 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:45:26] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.001
+2025-11-08 10:45:26,468 25662 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:45:26] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 3 0.010 0.055
+2025-11-08 10:45:26,470 25662 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:45:26] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 8 0.073 0.007
+2025-11-08 10:45:28,155 25662 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:45:28] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.004
+2025-11-08 10:45:30,461 25662 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:45:30] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 39 0.014 0.013
+2025-11-08 10:45:30,487 25662 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:45:30] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 4 0.006 0.045
+2025-11-08 10:45:30,537 25662 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:45:30] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.002
+2025-11-08 10:45:35,077 25662 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:45:35] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 2 0.005 0.005
+2025-11-08 10:45:35,099 25662 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:45:35] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.003
+2025-11-08 10:45:35,102 25662 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:45:35] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 39 0.025 0.020
+2025-11-08 10:45:37,476 25662 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:45:37] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 4 0.006 0.021
+2025-11-08 10:45:37,477 25662 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:45:37] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 39 0.013 0.016
+2025-11-08 10:45:37,521 25662 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:45:37] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.002 0.010
+2025-11-08 10:46:04,564 25662 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:46:04] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 39 0.018 0.027
+2025-11-08 10:46:04,577 25662 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:46:04] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 2 0.003 0.003
+2025-11-08 10:46:04,586 25662 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:46:04] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.003
+2025-11-08 10:54:07,933 25662 INFO ? odoo.service.server: Initiating shutdown 
+2025-11-08 10:54:07,935 25662 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-11-08 10:54:08,182 25662 INFO ? odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 9 connections  
+2025-11-08 10:54:20,633 26005 WARNING ? odoo.tools.config: option addons_path, no such directory '/Users/charithasreevijjada/Desktop/odoo_project/custom_addons', skipped 
+2025-11-08 10:54:20,633 26005 WARNING ? odoo.tools.config: missing --http-interface/http_interface, using 0.0.0.0 by default, will change to 127.0.0.1 in 20.0 
+2025-11-08 10:54:20,633 26005 INFO ? odoo: Odoo version 19.0 
+2025-11-08 10:54:20,633 26005 INFO ? odoo: Using configuration file at /Users/charithasreevijjada/Desktop/odoo_project/odoo.conf 
+2025-11-08 10:54:20,633 26005 INFO ? odoo: addons paths: _NamespacePath(['/Users/charithasreevijjada/Desktop/odoo_project/odoo/odoo/addons', '/Users/charithasreevijjada/Library/Application Support/Odoo/addons/19.0', '/Users/charithasreevijjada/Desktop/odoo_project/odoo/addons', '/Users/charithasreevijjada/Desktop/odoo_project/custom_devs']) 
+2025-11-08 10:54:20,633 26005 INFO ? odoo: database: odoo@localhost:5432 
+2025-11-08 10:54:20,869 26005 INFO ? odoo.service.server: HTTP service (werkzeug) running on 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa:8069 
+2025-11-08 10:54:30,505 26005 INFO ? odoo.modules.loading: loading 1 modules... 
+2025-11-08 10:54:30,512 26005 INFO ? odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2025-11-08 10:54:30,518 26005 INFO ? odoo.modules.loading: loading 14 modules... 
+2025-11-08 10:54:30,665 26005 INFO ? odoo.modules.loading: 14 modules loaded in 0.15s, 0 queries (+0 extra) 
+2025-11-08 10:54:30,688 26005 INFO ? odoo.modules.loading: Modules loaded. 
+2025-11-08 10:54:30,704 26005 INFO ? odoo.registry: Registry loaded in 0.365s 
+2025-11-08 10:54:30,705 26005 INFO testingmylimit5 odoo.addons.base.models.ir_http: Generating routing map for key None 
+2025-11-08 10:54:30,721 26005 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:54:30] "GET /websocket?version=saas-18.5-1 HTTP/1.1" 101 - 21 0.071 0.312
+2025-11-08 10:54:30,762 26005 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:54:30] "POST /bus/has_missed_notifications HTTP/1.1" 200 - 2 0.001 0.002
+2025-11-08 10:54:31,057 26005 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2025-11-08 10:54:34,198 26005 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:54:34] "GET / HTTP/1.1" 303 - 2 0.001 0.004
+2025-11-08 10:54:34,393 26005 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:54:34] "GET /odoo HTTP/1.1" 200 - 52 0.031 0.160
+2025-11-08 10:54:34,428 26005 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:54:34] "GET /web/webclient/load_menus HTTP/1.1" 200 - 13 0.009 0.009
+2025-11-08 10:54:34,482 26005 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:54:34] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 6 0.003 0.003
+2025-11-08 10:54:34,488 26005 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:54:34] "GET /web/webclient/translations?hash=ae90ab5f4c0da288bd95c52216c35e6c1d2849e7&lang=en_US HTTP/1.1" 200 - 2 0.004 0.006
+2025-11-08 10:54:34,517 26005 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:54:34] "POST /web/action/load HTTP/1.1" 200 - 10 0.015 0.004
+2025-11-08 10:54:34,518 26005 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:54:34] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 15 0.013 0.007
+2025-11-08 10:54:34,549 26005 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:54:34] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 5 0.006 0.004
+2025-11-08 10:54:34,562 26005 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:54:34] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.005 0.003
+2025-11-08 10:54:34,576 26005 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:54:34] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 42 0.025 0.012
+2025-11-08 10:54:34,599 26005 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:54:34] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.002
+2025-11-08 10:54:34,601 26005 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:54:34] "POST /web/dataset/call_kw/ir.module.module/get_views#ir.module.module.get_views HTTP/1.1" 200 - 41 0.046 0.022
+2025-11-08 10:54:34,602 26005 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:54:34] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 4 0.013 0.046
+2025-11-08 10:54:36,295 26005 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:54:36] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.004
+2025-11-08 10:54:40,178 26005 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:54:40] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 39 0.013 0.018
+2025-11-08 10:54:40,189 26005 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:54:40] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 2 0.002 0.004
+2025-11-08 10:54:40,200 26005 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:54:40] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.002 0.004
+2025-11-08 10:54:40,359 26005 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:54:40] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 39 0.014 0.015
+2025-11-08 10:54:40,364 26005 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:54:40] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 3 0.004 0.030
+2025-11-08 10:54:40,411 26005 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:54:40] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.002
+2025-11-08 10:54:58,069 26005 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:54:58] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 39 0.014 0.024
+2025-11-08 10:54:58,079 26005 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:54:58] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 2 0.001 0.004
+2025-11-08 10:54:58,088 26005 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:54:58] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.003
+2025-11-08 10:56:08,370 26005 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:56:08] "GET /odoo/apps HTTP/1.1" 200 - 8 0.005 0.019
+2025-11-08 10:56:08,393 26005 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:56:08] "GET /web/webclient/load_menus HTTP/1.1" 200 - 1 0.002 0.008
+2025-11-08 10:56:08,446 26005 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:56:08] "GET /web/webclient/translations?hash=ae90ab5f4c0da288bd95c52216c35e6c1d2849e7&lang=en_US HTTP/1.1" 200 - 1 0.001 0.003
+2025-11-08 10:56:08,455 26005 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:56:08] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 4 0.007 0.005
+2025-11-08 10:56:08,498 26005 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:56:08] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 8 0.012 0.020
+2025-11-08 10:56:08,498 26005 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:56:08] "POST /web/dataset/call_kw/ir.module.module/get_views#ir.module.module.get_views HTTP/1.1" 200 - 2 0.005 0.027
+2025-11-08 10:56:08,499 26005 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:56:08] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 1 0.005 0.012
+2025-11-08 10:56:08,501 26005 INFO testingmylimit5 odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/707b1dc/bus.websocket_worker_assets.min.js (id:206) 
+2025-11-08 10:56:08,503 26005 INFO testingmylimit5 odoo.addons.base.models.assetsbundle: Deleting attachments [202] (matching /web/assets/_______/bus.websocket_worker_assets.min.js) because it was replaced with /web/assets/707b1dc/bus.websocket_worker_assets.min.js 
+2025-11-08 10:56:08,506 26005 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:56:08] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.004
+2025-11-08 10:56:08,513 26005 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:56:08] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 39 0.020 0.009
+2025-11-08 10:56:08,525 26005 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:56:08] "GET /bus/websocket_worker_bundle?v=saas-18.5-1 HTTP/1.1" 304 - 13 0.017 0.059
+2025-11-08 10:56:08,525 26005 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:56:08] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 3 0.008 0.033
+2025-11-08 10:56:08,533 26005 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:56:08] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.002
+2025-11-08 10:56:08,593 26005 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:56:08] "GET /websocket?version=saas-18.5-1 HTTP/1.1" 101 - 1 0.001 0.002
+2025-11-08 10:56:10,125 26005 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:56:10] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.004
+2025-11-08 10:56:16,385 26005 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:56:16] "GET /odoo/apps?debug=1 HTTP/1.1" 200 - 8 0.004 0.012
+2025-11-08 10:56:16,449 26005 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:56:16] "GET /web/webclient/translations?hash=ae90ab5f4c0da288bd95c52216c35e6c1d2849e7&lang=en_US HTTP/1.1" 200 - 1 0.003 0.002
+2025-11-08 10:56:16,452 26005 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:56:16] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 4 0.004 0.007
+2025-11-08 10:56:16,454 26005 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:56:16] "GET /web/webclient/load_menus HTTP/1.1" 200 - 9 0.012 0.014
+2025-11-08 10:56:16,456 26005 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:56:16] "GET /bus/websocket_worker_bundle?v=saas-18.5-1 HTTP/1.1" 304 - 3 0.006 0.005
+2025-11-08 10:56:16,465 26005 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:56:16] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 8 0.003 0.005
+2025-11-08 10:56:16,470 26005 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:56:16] "POST /web/dataset/call_kw/ir.module.module/get_views#ir.module.module.get_views HTTP/1.1" 200 - 2 0.003 0.006
+2025-11-08 10:56:16,478 26005 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:56:16] "GET /websocket?version=saas-18.5-1 HTTP/1.1" 101 - 1 0.001 0.002
+2025-11-08 10:56:16,481 26005 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:56:16] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 1 0.001 0.003
+2025-11-08 10:56:16,497 26005 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:56:16] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 41 0.011 0.008
+2025-11-08 10:56:16,499 26005 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:56:16] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.002 0.003
+2025-11-08 10:56:16,503 26005 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:56:16] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 3 0.002 0.020
+2025-11-08 10:56:16,521 26005 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:56:16] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.001
+2025-11-08 10:56:17,961 26005 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:56:17] "POST /web/action/load HTTP/1.1" 200 - 9 0.009 0.011
+2025-11-08 10:56:17,997 26005 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:56:17] "POST /web/dataset/call_kw/base.module.update/get_views#base.module.update.get_views HTTP/1.1" 200 - 11 0.009 0.013
+2025-11-08 10:56:18,011 26005 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:56:18] "POST /web/dataset/call_kw/base.module.update/onchange#base.module.update.onchange HTTP/1.1" 200 - 2 0.002 0.004
+2025-11-08 10:56:18,255 26005 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:56:18] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.006
+2025-11-08 10:56:19,639 26005 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:56:19] "POST /web/dataset/call_kw/base.module.update/web_save#base.module.update.web_save HTTP/1.1" 200 - 5 0.006 0.005
+2025-11-08 10:56:19,650 26005 INFO testingmylimit5 odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user admin #2 via 127.0.0.1 
+2025-11-08 10:56:19,967 26005 WARNING testingmylimit5 odoo.modules.module: Missing `license` key in manifest for 'csr_post', defaulting to LGPL-3 
+2025-11-08 10:56:21,028 26005 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:56:21] "POST /web/dataset/call_button/base.module.update/update_module#base.module.update.update_module HTTP/1.1" 200 - 1550 0.591 0.791
+2025-11-08 10:56:28,249 26005 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:56:28] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 45 0.013 0.021
+2025-11-08 10:56:28,260 26005 WARNING testingmylimit5 odoo.modules.module: Missing `license` key in manifest for 'csr_post', defaulting to LGPL-3 
+2025-11-08 10:56:28,261 26005 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:56:28] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 3 0.002 0.006
+2025-11-08 10:56:28,284 26005 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:56:28] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.002 0.005
+2025-11-08 10:57:11,502 26005 INFO testingmylimit5 odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['CSR Posts Page'] to user admin #2 via 127.0.0.1 
+2025-11-08 10:57:11,504 26005 INFO testingmylimit5 odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2025-11-08 10:57:11,507 26005 INFO testingmylimit5 odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['CSR Posts Page'] to user admin #2 via 127.0.0.1 
+2025-11-08 10:57:11,596 26005 INFO testingmylimit5 odoo.modules.loading: loading 1 modules... 
+2025-11-08 10:57:11,604 26005 INFO testingmylimit5 odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2025-11-08 10:57:11,632 26005 INFO testingmylimit5 odoo.modules.loading: updating modules list 
+2025-11-08 10:57:11,633 26005 INFO testingmylimit5 odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2025-11-08 10:57:11,924 26005 WARNING testingmylimit5 odoo.modules.module: Missing `license` key in manifest for 'csr_post', defaulting to LGPL-3 
+2025-11-08 10:57:12,763 26005 INFO testingmylimit5 odoo.modules.loading: loading 15 modules... 
+2025-11-08 10:57:12,777 26005 INFO testingmylimit5 odoo.modules.loading: Loading module csr_post (15/15) 
+2025-11-08 10:57:12,824 26005 INFO testingmylimit5 odoo.registry: module csr_post: creating or updating database tables 
+2025-11-08 10:57:12,914 26005 INFO testingmylimit5 odoo.modules.loading: loading csr_post/security/security.xml 
+2025-11-08 10:57:12,917 26005 INFO testingmylimit5 odoo.modules.loading: loading csr_post/security/ir.model.access.csv 
+2025-11-08 10:57:12,930 26005 INFO testingmylimit5 odoo.modules.loading: loading csr_post/views/csr_post_views.xml 
+2025-11-08 10:57:12,956 26005 WARNING testingmylimit5 odoo.modules.loading: Transient module states were reset 
+2025-11-08 10:57:12,957 26005 ERROR testingmylimit5 odoo.registry: Failed to load registry 
+2025-11-08 10:57:12,961 26005 INFO testingmylimit5 odoo.modules.loading: loading 1 modules... 
+2025-11-08 10:57:12,965 26005 INFO testingmylimit5 odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2025-11-08 10:57:12,966 26005 INFO testingmylimit5 odoo.modules.loading: loading 14 modules... 
+2025-11-08 10:57:12,971 26005 INFO testingmylimit5 odoo.modules.loading: 14 modules loaded in 0.00s, 0 queries (+0 extra) 
+2025-11-08 10:57:12,996 26005 INFO testingmylimit5 odoo.modules.loading: Modules loaded. 
+2025-11-08 10:57:13,003 26005 INFO testingmylimit5 odoo.registry: Registry loaded in 0.046s 
+2025-11-08 10:57:13,010 26005 ERROR testingmylimit5 odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/charithasreevijjada/Desktop/odoo_project/odoo/odoo/http.py", line 2800, in __call__
+    response = request._serve_db()
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/charithasreevijjada/Desktop/odoo_project/odoo/odoo/http.py", line 2283, in _serve_db
+    raise self._update_served_exception(exc)
+  File "/Users/charithasreevijjada/Desktop/odoo_project/odoo/odoo/http.py", line 2281, in _serve_db
+    return service_model.retrying(serve_func, env=self.env)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/charithasreevijjada/Desktop/odoo_project/odoo/odoo/service/model.py", line 184, in retrying
+    result = func()
+             ^^^^^^
+  File "/Users/charithasreevijjada/Desktop/odoo_project/odoo/odoo/http.py", line 2328, in _serve_ir_http
+    response = self.dispatcher.dispatch(rule.endpoint, args)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/charithasreevijjada/Desktop/odoo_project/odoo/odoo/http.py", line 2543, in dispatch
+    result = self.request.registry['ir.http']._dispatch(endpoint)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/charithasreevijjada/Desktop/odoo_project/odoo/odoo/addons/base/models/ir_http.py", line 357, in _dispatch
+    result = endpoint(**request.params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/charithasreevijjada/Desktop/odoo_project/odoo/odoo/http.py", line 788, in route_wrapper
+    result = endpoint(self, *args, **params_ok)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/charithasreevijjada/Desktop/odoo_project/odoo/addons/web/controllers/dataset.py", line 38, in call_button
+    action = call_kw(request.env[model], method, args, kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/charithasreevijjada/Desktop/odoo_project/odoo/odoo/service/model.py", line 93, in call_kw
+    result = method(recs, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/charithasreevijjada/Desktop/odoo_project/odoo/odoo/addons/base/models/ir_module.py", line 70, in check_and_log
+    return method(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/charithasreevijjada/Desktop/odoo_project/odoo/odoo/addons/base/models/ir_module.py", line 479, in button_immediate_install
+    return self._button_immediate_function(self.env.registry[self._name].button_install)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/charithasreevijjada/Desktop/odoo_project/odoo/odoo/addons/base/models/ir_module.py", line 620, in _button_immediate_function
+    registry = modules.registry.Registry.new(self.env.cr.dbname, update_module=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/charithasreevijjada/Desktop/odoo_project/odoo/odoo/tools/func.py", line 88, in locked
+    return func(inst, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/charithasreevijjada/Desktop/odoo_project/odoo/odoo/orm/registry.py", line 185, in new
+    load_modules(
+  File "/Users/charithasreevijjada/Desktop/odoo_project/odoo/odoo/modules/loading.py", line 449, in load_modules
+    load_module_graph(
+  File "/Users/charithasreevijjada/Desktop/odoo_project/odoo/odoo/modules/loading.py", line 204, in load_module_graph
+    load_data(env, idref, 'init', kind='data', package=package)
+  File "/Users/charithasreevijjada/Desktop/odoo_project/odoo/odoo/modules/loading.py", line 58, in load_data
+    convert_file(env, package.name, filename, idref, mode, noupdate=kind == 'demo')
+  File "/Users/charithasreevijjada/Desktop/odoo_project/odoo/odoo/tools/convert.py", line 646, in convert_file
+    convert_xml_import(env, module, fp, idref, mode, noupdate)
+  File "/Users/charithasreevijjada/Desktop/odoo_project/odoo/odoo/tools/convert.py", line 745, in convert_xml_import
+    obj.parse(doc.getroot())
+  File "/Users/charithasreevijjada/Desktop/odoo_project/odoo/odoo/tools/convert.py", line 616, in parse
+    self._tag_root(de)
+  File "/Users/charithasreevijjada/Desktop/odoo_project/odoo/odoo/tools/convert.py", line 570, in _tag_root
+    raise ParseError(msg) from None  # Restart with "--log-handler odoo.tools.convert:DEBUG" for complete traceback
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+odoo.tools.convert.ParseError: while parsing /Users/charithasreevijjada/Desktop/odoo_project/custom_devs/csr_post/views/csr_post_views.xml:17
+Invalid view type: 'tree'.
+You might have used an invalid starting tag in the architecture.
+Allowed types are: list, form, graph, pivot, calendar, kanban, search, qweb
+
+View error context:
+'-no context-'
+
+2025-11-08 10:57:13,011 26005 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 10:57:13] "POST /web/dataset/call_button/ir.module.module/button_immediate_install#ir.module.module.button_immediate_install HTTP/1.1" 200 - 1644 0.735 0.790
+2025-11-08 11:01:15,100 26005 INFO ? odoo.service.server: Initiating shutdown 
+2025-11-08 11:01:15,103 26005 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-11-08 11:01:15,579 26005 INFO ? odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 10 connections  
+2025-11-08 11:01:19,417 26240 WARNING ? odoo.tools.config: option addons_path, no such directory '/Users/charithasreevijjada/Desktop/odoo_project/custom_addons', skipped 
+2025-11-08 11:01:19,417 26240 WARNING ? odoo.tools.config: missing --http-interface/http_interface, using 0.0.0.0 by default, will change to 127.0.0.1 in 20.0 
+2025-11-08 11:01:19,418 26240 INFO ? odoo: Odoo version 19.0 
+2025-11-08 11:01:19,418 26240 INFO ? odoo: Using configuration file at /Users/charithasreevijjada/Desktop/odoo_project/odoo.conf 
+2025-11-08 11:01:19,418 26240 INFO ? odoo: addons paths: _NamespacePath(['/Users/charithasreevijjada/Desktop/odoo_project/odoo/odoo/addons', '/Users/charithasreevijjada/Library/Application Support/Odoo/addons/19.0', '/Users/charithasreevijjada/Desktop/odoo_project/odoo/addons', '/Users/charithasreevijjada/Desktop/odoo_project/custom_devs']) 
+2025-11-08 11:01:19,418 26240 INFO ? odoo: database: odoo@localhost:5432 
+2025-11-08 11:01:19,643 26240 INFO ? odoo.service.server: HTTP service (werkzeug) running on 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa:8069 
+2025-11-08 11:01:20,817 26240 INFO ? odoo.modules.loading: loading 1 modules... 
+2025-11-08 11:01:20,825 26240 INFO ? odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2025-11-08 11:01:20,834 26240 INFO ? odoo.modules.loading: loading 14 modules... 
+2025-11-08 11:01:20,973 26240 INFO ? odoo.modules.loading: 14 modules loaded in 0.14s, 0 queries (+0 extra) 
+2025-11-08 11:01:20,997 26240 INFO ? odoo.modules.loading: Modules loaded. 
+2025-11-08 11:01:21,007 26240 INFO ? odoo.registry: Registry loaded in 0.227s 
+2025-11-08 11:01:21,008 26240 INFO testingmylimit5 odoo.addons.base.models.ir_http: Generating routing map for key None 
+2025-11-08 11:01:21,021 26240 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:01:21] "GET /websocket?version=saas-18.5-1 HTTP/1.1" 101 - 21 0.043 0.200
+2025-11-08 11:01:21,040 26240 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:01:21] "POST /bus/has_missed_notifications HTTP/1.1" 200 - 2 0.002 0.002
+2025-11-08 11:01:21,348 26240 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2025-11-08 11:01:35,734 26240 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:01:35] "GET / HTTP/1.1" 303 - 2 0.002 0.005
+2025-11-08 11:01:35,925 26240 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:01:35] "GET /odoo HTTP/1.1" 200 - 52 0.034 0.154
+2025-11-08 11:01:35,981 26240 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:01:35] "GET /web/webclient/load_menus HTTP/1.1" 200 - 12 0.029 0.008
+2025-11-08 11:01:36,032 26240 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:01:36] "GET /web/webclient/translations?hash=ae90ab5f4c0da288bd95c52216c35e6c1d2849e7&lang=en_US HTTP/1.1" 200 - 2 0.003 0.017
+2025-11-08 11:01:36,043 26240 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:01:36] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 6 0.009 0.020
+2025-11-08 11:01:36,058 26240 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:01:36] "POST /web/action/load HTTP/1.1" 200 - 10 0.023 0.004
+2025-11-08 11:01:36,059 26240 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:01:36] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 15 0.017 0.009
+2025-11-08 11:01:36,079 26240 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:01:36] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 5 0.008 0.003
+2025-11-08 11:01:36,090 26240 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:01:36] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.003 0.003
+2025-11-08 11:01:36,107 26240 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:01:36] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 48 0.027 0.013
+2025-11-08 11:01:36,114 26240 WARNING testingmylimit5 odoo.modules.module: Missing `license` key in manifest for 'csr_post', defaulting to LGPL-3 
+2025-11-08 11:01:36,122 26240 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:01:36] "POST /web/dataset/call_kw/ir.module.module/get_views#ir.module.module.get_views HTTP/1.1" 200 - 41 0.037 0.023
+2025-11-08 11:01:36,124 26240 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:01:36] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.002
+2025-11-08 11:01:36,136 26240 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:01:36] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 3 0.008 0.054
+2025-11-08 11:01:36,164 26240 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:01:36] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.002 0.001
+2025-11-08 11:01:37,820 26240 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:01:37] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.003
+2025-11-08 11:01:46,688 26240 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:01:46] "GET /odoo/apps?debug=1 HTTP/1.1" 200 - 8 0.004 0.012
+2025-11-08 11:01:46,710 26240 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:01:46] "GET /web/webclient/load_menus HTTP/1.1" 200 - 1 0.001 0.004
+2025-11-08 11:01:46,753 26240 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:01:46] "GET /web/webclient/translations?hash=ae90ab5f4c0da288bd95c52216c35e6c1d2849e7&lang=en_US HTTP/1.1" 200 - 1 0.001 0.003
+2025-11-08 11:01:46,755 26240 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:01:46] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 4 0.002 0.004
+2025-11-08 11:01:46,777 26240 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:01:46] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 1 0.001 0.004
+2025-11-08 11:01:46,778 26240 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:01:46] "POST /web/dataset/call_kw/ir.module.module/get_views#ir.module.module.get_views HTTP/1.1" 200 - 2 0.002 0.010
+2025-11-08 11:01:46,779 26240 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:01:46] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 8 0.004 0.010
+2025-11-08 11:01:46,793 26240 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:01:46] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.005 0.002
+2025-11-08 11:01:46,798 26240 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:01:46] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 45 0.015 0.011
+2025-11-08 11:01:46,804 26240 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:01:46] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 3 0.002 0.023
+2025-11-08 11:01:46,820 26240 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:01:46] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.001
+2025-11-08 11:01:48,443 26240 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:01:48] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.005
+2025-11-08 11:02:17,730 26240 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:02:17] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 45 0.018 0.028
+2025-11-08 11:02:17,745 26240 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:02:17] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 3 0.002 0.006
+2025-11-08 11:02:17,756 26240 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:02:17] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.003
+2025-11-08 11:02:19,024 26240 INFO testingmylimit5 odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['CSR Posts Page'] to user admin #2 via 127.0.0.1 
+2025-11-08 11:02:19,025 26240 INFO testingmylimit5 odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2025-11-08 11:02:19,028 26240 INFO testingmylimit5 odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['CSR Posts Page'] to user admin #2 via 127.0.0.1 
+2025-11-08 11:02:19,119 26240 INFO testingmylimit5 odoo.modules.loading: loading 1 modules... 
+2025-11-08 11:02:19,126 26240 INFO testingmylimit5 odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2025-11-08 11:02:19,155 26240 INFO testingmylimit5 odoo.modules.loading: updating modules list 
+2025-11-08 11:02:19,157 26240 INFO testingmylimit5 odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2025-11-08 11:02:19,398 26240 WARNING testingmylimit5 odoo.modules.module: Missing `license` key in manifest for 'csr_post', defaulting to LGPL-3 
+2025-11-08 11:02:20,507 26240 INFO testingmylimit5 odoo.modules.loading: loading 15 modules... 
+2025-11-08 11:02:20,521 26240 INFO testingmylimit5 odoo.modules.loading: Loading module csr_post (15/15) 
+2025-11-08 11:02:20,563 26240 INFO testingmylimit5 odoo.registry: module csr_post: creating or updating database tables 
+2025-11-08 11:02:20,637 26240 INFO testingmylimit5 odoo.modules.loading: loading csr_post/security/security.xml 
+2025-11-08 11:02:20,640 26240 INFO testingmylimit5 odoo.modules.loading: loading csr_post/security/ir.model.access.csv 
+2025-11-08 11:02:20,652 26240 INFO testingmylimit5 odoo.modules.loading: loading csr_post/views/csr_post_views.xml 
+2025-11-08 11:02:20,696 26240 INFO testingmylimit5 odoo.modules.loading: Module csr_post loaded in 0.18s, 88 queries (+95 other) 
+2025-11-08 11:02:20,696 26240 INFO testingmylimit5 odoo.modules.loading: 15 modules loaded in 0.19s, 88 queries (+95 extra) 
+2025-11-08 11:02:20,852 26240 INFO testingmylimit5 odoo.modules.loading: Modules loaded. 
+2025-11-08 11:02:20,855 26240 INFO testingmylimit5 odoo.registry: Registry changed, signaling through the database 
+2025-11-08 11:02:20,855 26240 INFO testingmylimit5 odoo.registry: Registry loaded in 1.756s 
+2025-11-08 11:02:20,855 26240 INFO testingmylimit5 odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2025-11-08 11:02:20,859 26240 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:02:20] "POST /web/dataset/call_button/ir.module.module/button_immediate_install#ir.module.module.button_immediate_install HTTP/1.1" 200 - 2092 0.877 0.966
+2025-11-08 11:02:20,879 26240 INFO testingmylimit5 odoo.addons.base.models.ir_http: Generating routing map for key None 
+2025-11-08 11:02:21,053 26240 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:02:21] "GET /odoo HTTP/1.1" 200 - 57 0.013 0.162
+2025-11-08 11:02:21,075 26240 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:02:21] "GET /web/webclient/load_menus HTTP/1.1" 200 - 11 0.004 0.007
+2025-11-08 11:02:21,113 26240 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:02:21] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 6 0.003 0.003
+2025-11-08 11:02:21,120 26240 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:02:21] "GET /web/webclient/translations?hash=&lang=en_US HTTP/1.1" 200 - 2 0.001 0.002
+2025-11-08 11:02:21,131 26240 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:02:21] "GET /bus/websocket_worker_bundle?v=saas-18.5-1 HTTP/1.1" 304 - 4 0.002 0.004
+2025-11-08 11:02:21,147 26240 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:02:21] "POST /web/action/load HTTP/1.1" 200 - 9 0.004 0.005
+2025-11-08 11:02:21,148 26240 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:02:21] "GET /websocket?version=saas-18.5-1 HTTP/1.1" 101 - 1 0.001 0.003
+2025-11-08 11:02:21,156 26240 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:02:21] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 15 0.010 0.007
+2025-11-08 11:02:22,668 26240 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:02:22] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.003
+2025-11-08 11:03:21,725 26240 INFO testingmylimit5 odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) starting 
+2025-11-08 11:03:21,849 26240 INFO testingmylimit5 odoo.addons.api_doc.models.ir_attachment: GC'd 0 /doc cached index 
+2025-11-08 11:03:21,883 26240 INFO testingmylimit5 odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2025-11-08 11:03:21,899 26240 INFO testingmylimit5 odoo.addons.base.models.res_users: GC 'auth_totp.device' delete 0 entries 
+2025-11-08 11:03:21,903 26240 INFO testingmylimit5 odoo.addons.base.models.res_users: GC'd 0 user log entries 
+2025-11-08 11:03:21,941 26240 INFO testingmylimit5 odoo.addons.base.models.res_users: GC 'res.users.apikeys' delete 0 entries 
+2025-11-08 11:03:21,967 26240 INFO testingmylimit5 odoo.addons.base.models.ir_attachment: filestore gc 4 checked, 0 removed 
+2025-11-08 11:03:21,978 26240 INFO testingmylimit5 odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2025-11-08 11:03:22,012 26240 INFO testingmylimit5 odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) fully done (#loop 1; done 44; remaining 0; duration 0.29s) 
+2025-11-08 11:03:51,258 26240 INFO ? odoo.service.server: Initiating shutdown 
+2025-11-08 11:03:51,259 26240 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-11-08 11:03:51,412 26240 INFO ? odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 8 connections  
+2025-11-08 11:04:03,338 26427 WARNING ? odoo.tools.config: option addons_path, no such directory '/Users/charithasreevijjada/Desktop/odoo_project/custom_addons', skipped 
+2025-11-08 11:04:03,338 26427 WARNING ? odoo.tools.config: missing --http-interface/http_interface, using 0.0.0.0 by default, will change to 127.0.0.1 in 20.0 
+2025-11-08 11:04:03,339 26427 INFO ? odoo: Odoo version 19.0 
+2025-11-08 11:04:03,339 26427 INFO ? odoo: Using configuration file at /Users/charithasreevijjada/Desktop/odoo_project/odoo.conf 
+2025-11-08 11:04:03,339 26427 INFO ? odoo: addons paths: _NamespacePath(['/Users/charithasreevijjada/Desktop/odoo_project/odoo/odoo/addons', '/Users/charithasreevijjada/Library/Application Support/Odoo/addons/19.0', '/Users/charithasreevijjada/Desktop/odoo_project/odoo/addons', '/Users/charithasreevijjada/Desktop/odoo_project/custom_devs']) 
+2025-11-08 11:04:03,339 26427 INFO ? odoo: database: odoo@localhost:5432 
+2025-11-08 11:04:03,553 26427 INFO ? odoo.service.server: HTTP service (werkzeug) running on 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa:8069 
+2025-11-08 11:04:11,781 26427 INFO ? odoo.modules.loading: loading 1 modules... 
+2025-11-08 11:04:11,788 26427 INFO ? odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2025-11-08 11:04:11,790 26427 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'csr_post', defaulting to LGPL-3 
+2025-11-08 11:04:11,798 26427 INFO ? odoo.modules.loading: loading 15 modules... 
+2025-11-08 11:04:11,955 26427 INFO ? odoo.modules.loading: 15 modules loaded in 0.16s, 0 queries (+0 extra) 
+2025-11-08 11:04:11,977 26427 INFO ? odoo.modules.loading: Modules loaded. 
+2025-11-08 11:04:11,987 26427 INFO ? odoo.registry: Registry loaded in 0.237s 
+2025-11-08 11:04:11,988 26427 INFO testingmylimit5 odoo.addons.base.models.ir_http: Generating routing map for key None 
+2025-11-08 11:04:12,002 26427 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:04:12] "GET /websocket?version=saas-18.5-1 HTTP/1.1" 101 - 21 0.033 0.222
+2025-11-08 11:04:12,013 26427 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:04:12] "POST /bus/has_missed_notifications HTTP/1.1" 200 - 2 0.001 0.001
+2025-11-08 11:04:12,327 26427 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2025-11-08 11:04:12,677 26427 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:04:12] "GET /odoo HTTP/1.1" 200 - 53 0.036 0.176
+2025-11-08 11:04:12,711 26427 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:04:12] "GET /web/webclient/load_menus HTTP/1.1" 200 - 12 0.011 0.007
+2025-11-08 11:04:12,749 26427 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:04:12] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 6 0.002 0.007
+2025-11-08 11:04:12,752 26427 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:04:12] "GET /web/webclient/translations?hash=5f87b422a0ef511f4cc36f890fa301a307d9e4b9&lang=en_US HTTP/1.1" 200 - 2 0.004 0.007
+2025-11-08 11:04:12,757 26427 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:04:12] "GET /bus/websocket_worker_bundle?v=saas-18.5-1 HTTP/1.1" 304 - 4 0.005 0.009
+2025-11-08 11:04:12,769 26427 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:04:12] "GET /websocket?version=saas-18.5-1 HTTP/1.1" 101 - 1 0.001 0.003
+2025-11-08 11:04:12,774 26427 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:04:12] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 15 0.006 0.009
+2025-11-08 11:04:12,777 26427 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:04:12] "POST /web/action/load HTTP/1.1" 200 - 9 0.014 0.005
+2025-11-08 11:04:14,291 26427 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:04:14] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.003
+2025-11-08 11:04:15,091 26427 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:04:15] "GET /odoo/apps?debug=1 HTTP/1.1" 200 - 8 0.003 0.011
+2025-11-08 11:04:15,108 26427 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:04:15] "GET /web/webclient/load_menus HTTP/1.1" 200 - 1 0.001 0.003
+2025-11-08 11:04:15,150 26427 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:04:15] "GET /web/webclient/translations?hash=5f87b422a0ef511f4cc36f890fa301a307d9e4b9&lang=en_US HTTP/1.1" 200 - 1 0.001 0.003
+2025-11-08 11:04:15,153 26427 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:04:15] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 4 0.004 0.004
+2025-11-08 11:04:15,154 26427 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:04:15] "GET /bus/websocket_worker_bundle?v=saas-18.5-1 HTTP/1.1" 304 - 3 0.002 0.005
+2025-11-08 11:04:15,169 26427 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:04:15] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 8 0.004 0.005
+2025-11-08 11:04:15,170 26427 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:04:15] "GET /websocket?version=saas-18.5-1 HTTP/1.1" 101 - 1 0.000 0.003
+2025-11-08 11:04:15,215 26427 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:04:15] "POST /web/dataset/call_kw/ir.module.module/get_views#ir.module.module.get_views HTTP/1.1" 200 - 45 0.029 0.024
+2025-11-08 11:04:15,222 26427 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:04:15] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 1 0.001 0.002
+2025-11-08 11:04:15,242 26427 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:04:15] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.002 0.002
+2025-11-08 11:04:15,246 26427 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:04:15] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 48 0.018 0.008
+2025-11-08 11:04:15,268 26427 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:04:15] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 4 0.003 0.042
+2025-11-08 11:04:15,300 26427 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:04:15] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.001
+2025-11-08 11:04:16,878 26427 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:04:16] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.003
+2025-11-08 11:04:24,329 26427 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:04:24] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 45 0.014 0.022
+2025-11-08 11:04:24,342 26427 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:04:24] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 3 0.002 0.006
+2025-11-08 11:04:24,353 26427 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:04:24] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.002 0.004
+2025-11-08 11:04:26,920 26427 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:04:26] "POST /web/dataset/call_button/ir.module.module/more_info#ir.module.module.more_info HTTP/1.1" 200 - 1 0.001 0.003
+2025-11-08 11:04:26,935 26427 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:04:26] "POST /web/dataset/call_kw/ir.module.module/get_views#ir.module.module.get_views HTTP/1.1" 200 - 1 0.001 0.005
+2025-11-08 11:04:26,986 26427 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:04:26] "POST /web/dataset/call_kw/ir.module.module/web_read#ir.module.module.web_read HTTP/1.1" 200 - 12 0.008 0.033
+2025-11-08 11:04:27,020 26427 INFO ? werkzeug: 127.0.0.1 - - [08/Nov/2025 11:04:27] "GET /base/static/src/css/description.css HTTP/1.1" 200 - 0 0.000 0.001
+2025-11-08 11:04:27,046 26427 INFO testingmylimit5 werkzeug: 127.0.0.1 - - [08/Nov/2025 11:04:27] "GET /web/image/ir.module.module/641/icon_image?unique=1762599739000 HTTP/1.1" 200 - 3 0.007 0.006
